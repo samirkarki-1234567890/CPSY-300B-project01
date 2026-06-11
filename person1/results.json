@@ -1,0 +1,39 @@
+{
+    "description": "Average macronutrients per diet type from All_Diets.csv",
+    "generated_at": "2026-06-11 21:19:16",
+    "source_file": "All_Diets.csv",
+    "source_container": "datasets",
+    "total_recipes_processed": 7806,
+    "results": [
+        {
+            "Diet_type": "dash",
+            "Protein(g)": 69.28,
+            "Carbs(g)": 160.54,
+            "Fat(g)": 101.15
+        },
+        {
+            "Diet_type": "keto",
+            "Protein(g)": 101.27,
+            "Carbs(g)": 57.97,
+            "Fat(g)": 153.12
+        },
+        {
+            "Diet_type": "mediterranean",
+            "Protein(g)": 101.11,
+            "Carbs(g)": 152.91,
+            "Fat(g)": 101.42
+        },
+        {
+            "Diet_type": "paleo",
+            "Protein(g)": 88.67,
+            "Carbs(g)": 129.55,
+            "Fat(g)": 135.67
+        },
+        {
+            "Diet_type": "vegan",
+            "Protein(g)": 56.16,
+            "Carbs(g)": 254.0,
+            "Fat(g)": 103.3
+        }
+    ]
+}
