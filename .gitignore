@@ -1,0 +1,13 @@
+# secrets - never commit these
+azure_function/local.settings.json
+setenv.sh
+azure_credentials.txt
+*.env
+
+# python
+__pycache__/
+*.pyc
+.venv/
+
+# outputs
+output/

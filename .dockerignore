@@ -1,0 +1,7 @@
+output/
+__pycache__/
+*.pyc
+.git/
+.venv/
+azure_function/
+make_sample.py

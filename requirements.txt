@@ -1,0 +1,7 @@
+# Task 1 analysis (data_analysis.py)
+pandas>=2.0
+matplotlib>=3.7
+seaborn>=0.12
+# Task 3 CLI (lambda_function.py) talking to real Azure
+azure-storage-blob>=12.19
+azure-cosmos>=4.5

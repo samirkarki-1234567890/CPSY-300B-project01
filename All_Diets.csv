@@ -1,0 +1,1013 @@
+Diet_type,Recipe_name,Cuisine_type,Protein(g),Carbs(g),Fat(g),Extraction_day,Extraction_time
+paleo,Paleo Hash 202,american,33.6,82.51,80.87,10/16/2022,17:20:09
+paleo,Paleo Wrap 128,british,24.42,63.84,46.3,10/16/2022,17:20:09
+paleo,Paleo Skillet 402,british,100.78,83.33,56.82,10/16/2022,17:20:09
+paleo,Paleo Tacos 64,british,86.36,34.22,65.14,10/16/2022,17:20:09
+paleo,Paleo Casserole 68,japanese,68.25,54.45,36.27,10/16/2022,17:20:09
+paleo,Paleo Pie 466,chinese,64.59,47.15,45.32,10/16/2022,17:20:09
+paleo,Paleo Bowl 366,japanese,84.45,72.92,113.9,10/16/2022,17:20:09
+paleo,Paleo Hash 190,chinese,52.07,35.59,71.94,10/16/2022,17:20:09
+paleo,Paleo Stew 939,chinese,40.59,35.27,72.89,10/16/2022,17:20:09
+paleo,Paleo Casserole 387,british,89.01,40.03,61.38,10/16/2022,17:20:09
+paleo,Paleo Soup 804,american,100.5,66.71,73.67,10/16/2022,17:20:09
+paleo,Paleo Soup 780,indian,80.12,78.94,14.93,10/16/2022,17:20:09
+paleo,Paleo Skillet 439,mediterranean,47.64,51.75,96.11,10/16/2022,17:20:09
+paleo,Paleo Curry 634,indian,103.89,9.51,45.79,10/16/2022,17:20:09
+paleo,Paleo Curry 347,chinese,94.89,83.8,45.41,10/16/2022,17:20:09
+paleo,Paleo Bowl 234,british,100.03,54.26,19.92,10/16/2022,17:20:09
+paleo,Paleo Bowl 127,indian,87.4,64.27,73.99,10/16/2022,17:20:09
+paleo,Paleo Skillet 813,french,75.55,78.77,46.49,10/16/2022,17:20:09
+paleo,Paleo Salad 696,chinese,57.29,48.55,22.11,10/16/2022,17:20:09
+paleo,Paleo Wrap 695,chinese,53.57,60.37,68.22,10/16/2022,17:20:09
+paleo,Paleo Skillet 606,french,66.55,47.3,52.81,10/16/2022,17:20:09
+paleo,Paleo Pie 907,chinese,19.35,20.32,27.58,10/16/2022,17:20:09
+paleo,Paleo Stir Fry 261,south east asian,56.76,98.98,45.2,10/16/2022,17:20:09
+paleo,Paleo Skillet 901,mexican,37.32,53.84,28.87,10/16/2022,17:20:09
+paleo,Paleo Skillet 546,mexican,9.54,73.03,61.54,10/16/2022,17:20:09
+paleo,Paleo Bake 432,french,19.39,62.16,40.44,10/16/2022,17:20:09
+paleo,Paleo Bake 756,chinese,126.06,52.82,26.85,10/16/2022,17:20:09
+paleo,Paleo Bake 145,mediterranean,77.7,100.78,77.97,10/16/2022,17:20:09
+paleo,Paleo Stew 988,indian,28.39,40.81,29.52,10/16/2022,17:20:09
+paleo,Paleo Salad 957,chinese,21.82,79.05,48.89,10/16/2022,17:20:09
+paleo,Paleo Wrap 670,chinese,80.97,85.14,109.91,10/16/2022,17:20:09
+paleo,Paleo Casserole 267,japanese,84.5,30.31,0.1,10/16/2022,17:20:09
+paleo,Paleo Soup 363,british,55.46,41.64,51.13,10/16/2022,17:20:09
+paleo,Paleo Soup 109,mediterranean,75.5,55.24,26.52,10/16/2022,17:20:09
+paleo,Paleo Stir Fry 321,mexican,68.12,113.04,58.58,10/16/2022,17:20:09
+paleo,Paleo Salad 554,indian,52.52,24.45,28.46,10/16/2022,17:20:09
+paleo,Paleo Pie 203,japanese,41.25,85.15,30.17,10/16/2022,17:20:09
+paleo,Paleo Fritters 935,mexican,83.47,55.3,53.88,10/16/2022,17:20:09
+paleo,Paleo Salad 152,british,54.08,23.23,19.86,10/16/2022,17:20:09
+paleo,Paleo Stew 518,chinese,125.27,64.8,51.74,10/16/2022,17:20:09
+paleo,Paleo Soup 885,american,77.68,47.67,85.42,10/16/2022,17:20:09
+paleo,Paleo Fritters 241,american,123.75,65.5,21.33,10/16/2022,17:20:09
+paleo,Paleo Stew 367,indian,130.33,54.61,44.46,10/16/2022,17:20:09
+paleo,Paleo Soup 970,chinese,31.25,33.16,72.69,10/16/2022,17:20:09
+paleo,Paleo Wrap 279,mexican,64.28,70.13,93.71,10/16/2022,17:20:09
+paleo,Paleo Tacos 693,south east asian,92.54,0.1,53.66,10/16/2022,17:20:09
+paleo,Paleo Curry 85,south east asian,39.26,49.98,80.19,10/16/2022,17:20:09
+paleo,Paleo Stew 488,indian,71.07,45.47,45.99,10/16/2022,17:20:09
+paleo,Paleo Bake 499,american,116.81,55.36,35.86,10/16/2022,17:20:09
+paleo,Paleo Stir Fry 141,south east asian,78.49,65.3,25.18,10/16/2022,17:20:09
+paleo,Paleo Skillet 737,british,158.11,116.31,31.54,10/16/2022,17:20:09
+paleo,Paleo Bake 109,italian,18.78,42.28,63.68,10/16/2022,17:20:09
+paleo,Paleo Casserole 764,mediterranean,47.1,0.1,50.53,10/16/2022,17:20:09
+paleo,Paleo Fritters 866,italian,51.47,,52.41,10/16/2022,17:20:09
+paleo,Paleo Skillet 840,british,144.52,21.38,24.84,10/16/2022,17:20:09
+paleo,Paleo Pie 146,mexican,171.68,24.85,44.87,10/16/2022,17:20:09
+paleo,Paleo Casserole 598,mexican,35.46,52.64,76.38,10/16/2022,17:20:09
+paleo,Paleo Curry 22,south east asian,56.83,55.99,17.19,10/16/2022,17:20:09
+paleo,Paleo Bowl 515,mediterranean,78.13,43.34,67.97,10/16/2022,17:20:09
+paleo,Paleo Hash 874,south east asian,75.44,70.55,56.46,10/16/2022,17:20:09
+paleo,Paleo Casserole 642,indian,81.08,57.08,112.56,10/16/2022,17:20:09
+paleo,Paleo Stew 832,mexican,83.5,37.11,24.41,10/16/2022,17:20:09
+paleo,Paleo Bowl 800,japanese,86.81,7.66,80.5,10/16/2022,17:20:09
+paleo,Paleo Bake 642,mediterranean,31.13,45.85,62.25,10/16/2022,17:20:09
+paleo,Paleo Hash 966,british,66.38,52.44,59.2,10/16/2022,17:20:09
+paleo,Paleo Roast 266,american,0.1,52.89,59.85,10/16/2022,17:20:09
+paleo,Paleo Salad 338,french,8.51,,102.5,10/16/2022,17:20:09
+paleo,Paleo Salad 685,italian,100.23,50.14,53.31,10/16/2022,17:20:09
+paleo,Paleo Soup 769,french,115.5,77.48,102.64,10/16/2022,17:20:09
+paleo,Paleo Roast 803,indian,85.37,112.32,67.07,10/16/2022,17:20:09
+paleo,Paleo Wrap 36,italian,72.33,39.08,82.21,10/16/2022,17:20:09
+paleo,Paleo Bake 95,mediterranean,97.38,54.28,87.21,10/16/2022,17:20:09
+paleo,Paleo Stir Fry 959,japanese,95.58,12.84,53.16,10/16/2022,17:20:09
+paleo,Paleo Fritters 794,japanese,51.86,105.34,72.53,10/16/2022,17:20:09
+paleo,Paleo Fritters 520,mediterranean,71.15,23.5,36.54,10/16/2022,17:20:09
+paleo,Paleo Wrap 466,mediterranean,47.17,94.66,71.74,10/16/2022,17:20:09
+paleo,Paleo Wrap 236,indian,72.52,72.42,99.45,10/16/2022,17:20:09
+paleo,Paleo Stir Fry 88,chinese,49.31,77.73,11.51,10/16/2022,17:20:09
+paleo,Paleo Bake 730,french,99.63,42.87,77.38,10/16/2022,17:20:09
+paleo,Paleo Hash 364,indian,78.15,67.03,62.43,10/16/2022,17:20:09
+paleo,Paleo Soup 554,chinese,64.66,71.5,82.5,10/16/2022,17:20:09
+paleo,Paleo Fritters 935,french,65.62,104.44,34.55,10/16/2022,17:20:09
+paleo,Paleo Hash 5,south east asian,99.55,60.34,91.55,10/16/2022,17:20:09
+paleo,Paleo Tacos 636,mexican,99.46,76.62,119.01,10/16/2022,17:20:09
+paleo,Paleo Stew 96,chinese,126.15,46.27,57.97,10/16/2022,17:20:09
+paleo,Paleo Soup 442,american,13.92,22.45,10.96,10/16/2022,17:20:09
+paleo,Paleo Soup 391,japanese,88.35,68.29,16.15,10/16/2022,17:20:09
+paleo,Paleo Bowl 107,mediterranean,71.9,45.85,67.63,10/16/2022,17:20:09
+paleo,Paleo Fritters 680,british,46.82,64.15,75.9,10/16/2022,17:20:09
+paleo,Paleo Casserole 776,british,88.55,38.86,50.06,10/16/2022,17:20:09
+paleo,Paleo Salad 6,american,56.22,75.64,47.69,10/16/2022,17:20:09
+paleo,Paleo Fritters 239,italian,99.03,0.21,19.35,10/16/2022,17:20:09
+paleo,Paleo Casserole 120,south east asian,46.26,82.48,47.17,10/16/2022,17:20:09
+paleo,Paleo Stew 125,mediterranean,108.12,99.83,53.1,10/16/2022,17:20:09
+paleo,Paleo Wrap 448,mexican,117.38,62.76,31.97,10/16/2022,17:20:09
+paleo,Paleo Stew 709,indian,18.18,33.36,45.15,10/16/2022,17:20:09
+paleo,Paleo Fritters 5,american,21.62,71.78,26.39,10/16/2022,17:20:09
+paleo,Paleo Pie 92,south east asian,65.41,5.07,80.53,10/16/2022,17:20:09
+paleo,Paleo Salad 254,mediterranean,32.56,40.37,66.77,10/16/2022,17:20:09
+paleo,Paleo Curry 301,chinese,81.5,70.86,91.32,10/16/2022,17:20:09
+paleo,Paleo Curry 158,mexican,107.35,50.06,85.65,10/16/2022,17:20:09
+paleo,Paleo Stew 119,japanese,65.41,70.46,108.65,10/16/2022,17:20:09
+paleo,Paleo Salad 785,mediterranean,75.61,92.29,31.74,10/16/2022,17:20:09
+paleo,Paleo Casserole 218,japanese,69.09,69.42,32.08,10/16/2022,17:20:09
+paleo,Paleo Curry 477,chinese,30.89,46.24,46.94,10/16/2022,17:20:09
+paleo,Paleo Curry 701,indian,108.71,31.14,64.56,10/16/2022,17:20:09
+paleo,Paleo Bake 343,indian,76.49,78.58,45.67,10/16/2022,17:20:09
+paleo,Paleo Fritters 512,british,30.03,60.19,126.44,10/16/2022,17:20:09
+paleo,Paleo Hash 732,indian,73.2,77.42,53.44,10/16/2022,17:20:09
+paleo,Paleo Pie 494,american,,72.91,31.58,10/16/2022,17:20:09
+paleo,Paleo Stew 78,italian,93.3,92.56,65.08,10/16/2022,17:20:09
+paleo,Paleo Bowl 742,japanese,85.89,50.74,80.73,10/16/2022,17:20:09
+paleo,Paleo Bowl 708,mexican,0.32,15.15,92.51,10/16/2022,17:20:09
+paleo,Paleo Wrap 957,american,44.82,14.92,0.1,10/16/2022,17:20:09
+paleo,Paleo Fritters 144,south east asian,85.22,43.21,67.79,10/16/2022,17:20:09
+paleo,Paleo Stir Fry 209,south east asian,59.59,62.98,52.63,10/16/2022,17:20:09
+paleo,Paleo Wrap 919,japanese,93.39,39.35,79.69,10/16/2022,17:20:09
+paleo,Paleo Bake 142,indian,36.04,33.37,91.73,10/16/2022,17:20:09
+paleo,Paleo Skillet 42,chinese,54.51,103.65,58.62,10/16/2022,17:20:09
+paleo,Paleo Roast 906,japanese,124.77,49.15,29.12,10/16/2022,17:20:09
+paleo,Paleo Bowl 994,indian,15.2,79.12,40.18,10/16/2022,17:20:09
+paleo,Paleo Casserole 842,british,0.1,36.4,8.62,10/16/2022,17:20:09
+paleo,Paleo Bake 613,american,63.73,52.4,50.62,10/16/2022,17:20:09
+paleo,Paleo Tacos 843,french,34.7,81.21,73.22,10/16/2022,17:20:09
+paleo,Paleo Wrap 431,japanese,80.37,121.05,52.6,10/16/2022,17:20:09
+paleo,Paleo Curry 498,british,43.63,29.03,20.78,10/16/2022,17:20:09
+paleo,Paleo Wrap 628,mediterranean,38.89,57.88,64.19,10/16/2022,17:20:09
+paleo,Paleo Roast 25,mediterranean,43.21,87.01,75.33,10/16/2022,17:20:09
+paleo,Paleo Tacos 566,american,89.19,65.64,15.18,10/16/2022,17:20:09
+paleo,Paleo Stir Fry 980,british,79.17,33.01,60.22,10/16/2022,17:20:09
+paleo,Paleo Bake 515,south east asian,113.68,52.42,64.99,10/16/2022,17:20:09
+paleo,Paleo Stew 114,indian,29.53,51.19,25.52,10/16/2022,17:20:09
+paleo,Paleo Stir Fry 417,japanese,28.82,34.88,61.47,10/16/2022,17:20:09
+paleo,Paleo Fritters 749,mediterranean,27.22,67.47,105.09,10/16/2022,17:20:09
+paleo,Paleo Pie 962,chinese,12.19,21.57,43.35,10/16/2022,17:20:09
+paleo,Paleo Roast 411,american,98.44,67.25,6.19,10/16/2022,17:20:09
+paleo,Paleo Hash 266,japanese,114.61,41.17,37.49,10/16/2022,17:20:09
+paleo,Paleo Fritters 49,french,96.7,73.44,8.65,10/16/2022,17:20:09
+paleo,Paleo Stew 9,british,78.23,17.29,67.27,10/16/2022,17:20:09
+paleo,Paleo Tacos 235,mexican,25.11,81.41,61.65,10/16/2022,17:20:09
+paleo,Paleo Bake 263,mediterranean,54.58,60.96,62.4,10/16/2022,17:20:09
+paleo,Paleo Bake 671,italian,86.49,44.0,43.68,10/16/2022,17:20:09
+paleo,Paleo Roast 901,italian,0.1,108.33,125.11,10/16/2022,17:20:09
+paleo,Paleo Curry 885,british,2.21,50.69,47.13,10/16/2022,17:20:09
+paleo,Paleo Salad 425,british,90.28,75.74,13.9,10/16/2022,17:20:09
+paleo,Paleo Curry 137,mexican,141.84,65.16,45.72,10/16/2022,17:20:09
+paleo,Paleo Curry 220,chinese,9.43,64.93,44.26,10/16/2022,17:20:09
+paleo,Paleo Pie 202,indian,63.9,110.04,24.65,10/16/2022,17:20:09
+paleo,Paleo Bowl 449,chinese,39.58,65.32,88.34,10/16/2022,17:20:09
+paleo,Paleo Fritters 284,french,10.78,59.47,30.18,10/16/2022,17:20:09
+paleo,Paleo Tacos 306,indian,10.3,11.53,68.26,10/16/2022,17:20:09
+paleo,Paleo Bowl 299,british,0.1,83.55,62.49,10/16/2022,17:20:09
+paleo,Paleo Roast 61,indian,99.25,70.48,120.52,10/16/2022,17:20:09
+paleo,Paleo Casserole 476,japanese,83.57,54.99,77.46,10/16/2022,17:20:09
+paleo,Paleo Fritters 171,indian,51.75,46.94,41.82,10/16/2022,17:20:09
+paleo,Paleo Hash 512,japanese,122.44,46.23,43.32,10/16/2022,17:20:09
+paleo,Paleo Skillet 294,american,103.32,0.1,32.27,10/16/2022,17:20:09
+paleo,Paleo Roast 516,south east asian,0.1,31.09,29.83,10/16/2022,17:20:09
+paleo,Paleo Soup 776,american,61.42,29.08,53.43,10/16/2022,17:20:09
+paleo,Paleo Wrap 394,italian,35.84,32.68,70.36,10/16/2022,17:20:09
+paleo,Paleo Skillet 163,american,69.52,81.05,26.54,10/16/2022,17:20:09
+paleo,Paleo Skillet 431,indian,62.63,23.52,12.0,10/16/2022,17:20:09
+paleo,Paleo Hash 597,italian,34.22,57.11,86.02,10/16/2022,17:20:09
+paleo,Paleo Hash 331,italian,17.62,32.31,95.18,10/16/2022,17:20:09
+paleo,Paleo Tacos 191,mexican,30.09,26.41,67.31,10/16/2022,17:20:09
+paleo,Paleo Stew 10,japanese,89.21,54.37,62.65,10/16/2022,17:20:09
+paleo,Paleo Salad 475,italian,98.25,11.4,0.1,10/16/2022,17:20:09
+paleo,Paleo Wrap 5,italian,111.57,29.38,3.85,10/16/2022,17:20:09
+paleo,Paleo Casserole 994,british,132.92,75.49,44.78,10/16/2022,17:20:09
+paleo,Paleo Fritters 603,japanese,70.4,51.02,27.09,10/16/2022,17:20:09
+paleo,Paleo Fritters 548,south east asian,109.76,32.37,78.51,10/16/2022,17:20:09
+paleo,Paleo Bake 318,british,85.49,97.49,72.47,10/16/2022,17:20:09
+paleo,Paleo Stew 701,mexican,81.93,,57.3,10/16/2022,17:20:09
+paleo,Paleo Casserole 317,mexican,25.21,110.45,102.55,10/16/2022,17:20:09
+paleo,Paleo Tacos 669,mediterranean,117.27,60.36,60.58,10/16/2022,17:20:09
+paleo,Paleo Roast 4,japanese,83.89,61.81,19.18,10/16/2022,17:20:09
+paleo,Paleo Bowl 572,british,132.91,86.83,55.31,10/16/2022,17:20:09
+paleo,Paleo Salad 273,south east asian,71.55,,25.23,10/16/2022,17:20:09
+paleo,Paleo Bowl 975,british,26.24,75.34,65.76,10/16/2022,17:20:09
+paleo,Paleo Casserole 873,british,65.71,89.87,84.13,10/16/2022,17:20:09
+paleo,Paleo Roast 751,mediterranean,,27.49,64.48,10/16/2022,17:20:09
+paleo,Paleo Stir Fry 982,mexican,115.06,93.0,51.36,10/16/2022,17:20:09
+paleo,Paleo Skillet 358,indian,77.6,53.94,39.11,10/16/2022,17:20:09
+paleo,Paleo Bake 395,mexican,52.36,41.16,63.56,10/16/2022,17:20:09
+paleo,Paleo Stir Fry 681,mexican,79.56,25.82,41.77,10/16/2022,17:20:09
+vegan,Vegan Casserole 879,south east asian,40.57,50.28,0.1,10/16/2022,17:20:09
+vegan,Vegan Stew 741,mediterranean,35.51,121.86,37.65,10/16/2022,17:20:09
+vegan,Vegan Stir Fry 778,japanese,41.93,213.69,17.44,10/16/2022,17:20:09
+vegan,Vegan Bowl 204,chinese,21.82,66.34,33.47,10/16/2022,17:20:09
+vegan,Vegan Hash 804,south east asian,29.12,234.3,40.71,10/16/2022,17:20:09
+vegan,Vegan Pie 608,indian,33.37,127.86,47.31,10/16/2022,17:20:09
+vegan,Vegan Curry 504,chinese,22.62,178.14,32.76,10/16/2022,17:20:09
+vegan,Vegan Hash 131,french,50.9,121.87,,10/16/2022,17:20:09
+vegan,Vegan Salad 726,italian,42.44,3.78,53.33,10/16/2022,17:20:09
+vegan,Vegan Pie 278,chinese,9.76,116.5,41.68,10/16/2022,17:20:09
+vegan,Vegan Roast 454,italian,11.51,95.58,28.3,10/16/2022,17:20:09
+vegan,Vegan Roast 652,mediterranean,39.88,59.53,54.49,10/16/2022,17:20:09
+vegan,Vegan Wrap 313,south east asian,,119.26,35.58,10/16/2022,17:20:09
+vegan,Vegan Bake 981,french,34.51,133.53,58.95,10/16/2022,17:20:09
+vegan,Vegan Fritters 222,indian,15.87,137.34,64.9,10/16/2022,17:20:09
+vegan,Vegan Skillet 542,indian,0.1,17.76,23.34,10/16/2022,17:20:09
+vegan,Vegan Salad 375,indian,35.68,101.3,60.99,10/16/2022,17:20:09
+vegan,Vegan Casserole 405,mexican,19.91,148.73,,10/16/2022,17:20:09
+vegan,Vegan Hash 408,mexican,32.42,,27.56,10/16/2022,17:20:09
+vegan,Vegan Salad 845,mediterranean,31.05,43.38,41.4,10/16/2022,17:20:09
+vegan,Vegan Salad 878,south east asian,41.95,153.33,27.56,10/16/2022,17:20:09
+vegan,Vegan Stir Fry 248,french,55.26,206.18,50.59,10/16/2022,17:20:09
+vegan,Vegan Roast 4,south east asian,29.44,67.98,42.38,10/16/2022,17:20:09
+vegan,Vegan Pie 536,british,32.09,232.93,36.61,10/16/2022,17:20:09
+vegan,Vegan Skillet 90,chinese,36.32,120.36,48.97,10/16/2022,17:20:09
+vegan,Vegan Fritters 208,mexican,63.83,138.58,51.79,10/16/2022,17:20:09
+vegan,Vegan Roast 2,french,51.46,171.96,44.23,10/16/2022,17:20:09
+vegan,Vegan Wrap 531,mediterranean,43.59,192.02,45.79,10/16/2022,17:20:09
+vegan,Vegan Salad 371,chinese,0.1,142.97,0.1,10/16/2022,17:20:09
+vegan,Vegan Curry 51,japanese,42.91,148.65,16.75,10/16/2022,17:20:09
+vegan,Vegan Pie 637,south east asian,26.53,254.58,,10/16/2022,17:20:09
+vegan,Vegan Soup 638,south east asian,63.3,127.86,19.95,10/16/2022,17:20:09
+vegan,Vegan Bowl 397,chinese,11.12,104.65,25.16,10/16/2022,17:20:09
+vegan,Vegan Wrap 393,mexican,35.61,103.03,37.88,10/16/2022,17:20:09
+vegan,Vegan Tacos 303,mediterranean,17.51,57.5,62.09,10/16/2022,17:20:09
+vegan,Vegan Wrap 343,indian,10.21,146.63,49.27,10/16/2022,17:20:09
+vegan,Vegan Salad 986,chinese,47.87,142.46,52.64,10/16/2022,17:20:09
+vegan,Vegan Salad 302,french,40.79,101.84,30.34,10/16/2022,17:20:09
+vegan,Vegan Fritters 893,indian,66.4,,37.81,10/16/2022,17:20:09
+vegan,Vegan Soup 419,mexican,48.42,127.27,42.62,10/16/2022,17:20:09
+vegan,Vegan Bake 259,mexican,22.24,95.13,52.68,10/16/2022,17:20:09
+vegan,Vegan Stir Fry 662,french,40.95,160.2,32.5,10/16/2022,17:20:09
+vegan,Vegan Bowl 938,british,13.39,206.54,29.99,10/16/2022,17:20:09
+vegan,Vegan Tacos 275,south east asian,16.71,58.74,41.04,10/16/2022,17:20:09
+vegan,Vegan Salad 741,italian,45.84,140.39,46.32,10/16/2022,17:20:09
+vegan,Vegan Curry 609,south east asian,45.78,0.1,32.71,10/16/2022,17:20:09
+vegan,Vegan Roast 519,french,34.92,182.73,63.75,10/16/2022,17:20:09
+vegan,Vegan Stir Fry 874,japanese,26.24,149.11,29.44,10/16/2022,17:20:09
+vegan,Vegan Bake 328,french,25.24,168.34,53.55,10/16/2022,17:20:09
+vegan,Vegan Casserole 334,british,52.04,161.91,42.04,10/16/2022,17:20:09
+vegan,Vegan Roast 935,japanese,25.59,152.56,20.89,10/16/2022,17:20:09
+vegan,Vegan Stew 480,mediterranean,13.27,107.76,42.19,10/16/2022,17:20:09
+vegan,Vegan Skillet 305,italian,60.76,128.99,48.22,10/16/2022,17:20:09
+vegan,Vegan Bake 815,italian,42.78,110.78,69.08,10/16/2022,17:20:09
+vegan,Vegan Casserole 454,south east asian,23.72,116.38,18.56,10/16/2022,17:20:09
+vegan,Vegan Bake 116,mexican,60.29,115.36,36.06,10/16/2022,17:20:09
+vegan,Vegan Pie 27,chinese,7.13,65.23,44.54,10/16/2022,17:20:09
+vegan,Vegan Bake 70,japanese,84.16,84.8,68.71,10/16/2022,17:20:09
+vegan,Vegan Salad 224,mediterranean,42.57,123.71,42.21,10/16/2022,17:20:09
+vegan,Vegan Salad 423,indian,10.53,27.38,53.06,10/16/2022,17:20:09
+vegan,Vegan Curry 2,japanese,35.15,167.7,43.61,10/16/2022,17:20:09
+vegan,Vegan Stew 975,french,56.46,214.75,49.89,10/16/2022,17:20:09
+vegan,Vegan Soup 368,mediterranean,54.78,156.85,51.97,10/16/2022,17:20:09
+vegan,Vegan Tacos 820,japanese,15.8,162.04,12.88,10/16/2022,17:20:09
+vegan,Vegan Skillet 168,chinese,49.7,209.24,34.57,10/16/2022,17:20:09
+vegan,Vegan Tacos 96,french,30.79,126.12,41.58,10/16/2022,17:20:09
+vegan,Vegan Salad 227,american,41.16,60.68,49.01,10/16/2022,17:20:09
+vegan,Vegan Pie 651,south east asian,21.88,105.85,36.32,10/16/2022,17:20:09
+vegan,Vegan Casserole 268,british,33.28,105.37,0.1,10/16/2022,17:20:09
+vegan,Vegan Skillet 394,indian,30.4,78.85,67.63,10/16/2022,17:20:09
+vegan,Vegan Hash 538,south east asian,36.08,122.23,38.22,10/16/2022,17:20:09
+vegan,Vegan Bake 208,mediterranean,65.08,0.1,0.1,10/16/2022,17:20:09
+vegan,Vegan Hash 162,mexican,47.08,148.39,32.32,10/16/2022,17:20:09
+vegan,Vegan Casserole 137,japanese,53.03,131.04,59.25,10/16/2022,17:20:09
+vegan,Vegan Bake 952,japanese,47.21,126.64,40.03,10/16/2022,17:20:09
+vegan,Vegan Wrap 655,japanese,0.1,34.94,16.26,10/16/2022,17:20:09
+vegan,Vegan Soup 384,british,8.62,60.89,22.78,10/16/2022,17:20:09
+vegan,Vegan Tacos 601,french,66.53,95.3,32.73,10/16/2022,17:20:09
+vegan,Vegan Wrap 104,british,32.95,60.13,38.3,10/16/2022,17:20:09
+vegan,Vegan Stew 521,mexican,21.67,128.92,47.32,10/16/2022,17:20:09
+vegan,Vegan Soup 362,american,49.96,71.99,52.66,10/16/2022,17:20:09
+vegan,Vegan Hash 172,british,10.91,101.03,47.31,10/16/2022,17:20:09
+vegan,Vegan Tacos 474,american,61.81,180.45,34.87,10/16/2022,17:20:09
+vegan,Vegan Soup 679,american,68.84,237.63,15.44,10/16/2022,17:20:09
+vegan,Vegan Roast 521,mexican,16.48,40.65,30.28,10/16/2022,17:20:09
+vegan,Vegan Pie 361,italian,33.21,80.97,26.52,10/16/2022,17:20:09
+vegan,Vegan Bowl 418,italian,74.93,137.85,57.74,10/16/2022,17:20:09
+vegan,Vegan Hash 108,american,31.75,77.19,0.1,10/16/2022,17:20:09
+vegan,Vegan Stew 961,south east asian,0.1,48.28,66.5,10/16/2022,17:20:09
+vegan,Vegan Skillet 45,italian,57.58,144.66,55.65,10/16/2022,17:20:09
+vegan,Vegan Skillet 914,british,47.75,85.4,51.19,10/16/2022,17:20:09
+vegan,Vegan Wrap 493,italian,25.38,52.63,16.32,10/16/2022,17:20:09
+vegan,Vegan Fritters 470,mexican,36.51,139.62,24.15,10/16/2022,17:20:09
+vegan,Vegan Hash 865,american,44.98,157.09,71.04,10/16/2022,17:20:09
+vegan,Vegan Curry 800,mediterranean,,88.14,60.9,10/16/2022,17:20:09
+vegan,Vegan Hash 329,italian,27.79,11.54,36.57,10/16/2022,17:20:09
+vegan,Vegan Skillet 350,indian,61.54,72.19,46.04,10/16/2022,17:20:09
+vegan,Vegan Wrap 95,french,24.0,166.47,39.23,10/16/2022,17:20:09
+vegan,Vegan Salad 779,indian,52.49,125.84,55.92,10/16/2022,17:20:09
+vegan,Vegan Fritters 926,mexican,34.13,113.07,23.28,10/16/2022,17:20:09
+vegan,Vegan Curry 846,french,45.39,212.22,68.99,10/16/2022,17:20:09
+vegan,Vegan Bake 39,japanese,41.53,82.58,40.47,10/16/2022,17:20:09
+vegan,Vegan Stir Fry 151,british,41.36,106.92,63.87,10/16/2022,17:20:09
+vegan,Vegan Curry 786,japanese,0.1,167.75,41.21,10/16/2022,17:20:09
+vegan,Vegan Soup 59,italian,34.59,240.21,56.48,10/16/2022,17:20:09
+vegan,Vegan Roast 536,italian,27.32,96.33,0.1,10/16/2022,17:20:09
+vegan,Vegan Fritters 930,indian,7.43,80.31,16.85,10/16/2022,17:20:09
+vegan,Vegan Wrap 481,italian,35.94,0.1,52.29,10/16/2022,17:20:09
+vegan,Vegan Curry 934,french,0.1,60.21,64.66,10/16/2022,17:20:09
+vegan,Vegan Roast 837,american,28.92,49.2,56.09,10/16/2022,17:20:09
+vegan,Vegan Soup 939,indian,44.9,230.17,35.94,10/16/2022,17:20:09
+vegan,Vegan Bake 667,mexican,9.01,191.42,24.79,10/16/2022,17:20:09
+vegan,Vegan Pie 960,indian,7.65,133.73,59.35,10/16/2022,17:20:09
+vegan,Vegan Wrap 344,mexican,7.19,112.57,54.84,10/16/2022,17:20:09
+vegan,Vegan Stew 415,japanese,50.34,136.21,48.24,10/16/2022,17:20:09
+vegan,Vegan Tacos 633,french,43.2,159.47,94.21,10/16/2022,17:20:09
+vegan,Vegan Skillet 369,japanese,42.49,146.34,29.47,10/16/2022,17:20:09
+vegan,Vegan Curry 302,indian,75.42,139.61,25.35,10/16/2022,17:20:09
+vegan,Vegan Tacos 910,mexican,30.57,153.74,14.16,10/16/2022,17:20:09
+vegan,Vegan Stir Fry 534,american,47.63,234.78,49.32,10/16/2022,17:20:09
+vegan,Vegan Tacos 988,american,27.82,104.76,32.44,10/16/2022,17:20:09
+vegan,Vegan Wrap 286,mexican,4.67,171.72,32.41,10/16/2022,17:20:09
+vegan,Vegan Fritters 540,british,58.25,194.74,59.19,10/16/2022,17:20:09
+vegan,Vegan Bake 127,japanese,49.51,144.29,7.89,10/16/2022,17:20:09
+vegan,Vegan Hash 216,japanese,44.73,130.64,45.82,10/16/2022,17:20:09
+vegan,Vegan Casserole 386,italian,56.46,0.1,33.65,10/16/2022,17:20:09
+vegan,Vegan Pie 568,south east asian,36.65,194.93,,10/16/2022,17:20:09
+vegan,Vegan Stew 36,french,18.97,79.69,69.55,10/16/2022,17:20:09
+vegan,Vegan Salad 383,indian,2.25,231.74,52.05,10/16/2022,17:20:09
+vegan,Vegan Curry 50,french,45.07,35.41,63.65,10/16/2022,17:20:09
+vegan,Vegan Salad 364,japanese,26.4,85.16,53.89,10/16/2022,17:20:09
+vegan,Vegan Wrap 799,british,46.41,119.47,50.26,10/16/2022,17:20:09
+vegan,Vegan Bake 112,american,7.56,195.66,67.36,10/16/2022,17:20:09
+vegan,Vegan Casserole 378,french,74.01,179.73,59.42,10/16/2022,17:20:09
+vegan,Vegan Hash 186,mediterranean,31.34,143.43,68.02,10/16/2022,17:20:09
+vegan,Vegan Hash 721,japanese,19.05,169.47,58.42,10/16/2022,17:20:09
+vegan,Vegan Salad 588,chinese,30.26,64.26,22.64,10/16/2022,17:20:09
+vegan,Vegan Soup 993,american,39.15,114.99,31.2,10/16/2022,17:20:09
+vegan,Vegan Wrap 733,indian,54.61,80.12,47.21,10/16/2022,17:20:09
+vegan,Vegan Curry 980,american,60.18,111.36,45.8,10/16/2022,17:20:09
+vegan,Vegan Wrap 800,british,29.64,84.41,33.49,10/16/2022,17:20:09
+vegan,Vegan Skillet 637,mexican,33.16,96.29,69.34,10/16/2022,17:20:09
+vegan,Vegan Casserole 777,mediterranean,36.59,227.12,47.15,10/16/2022,17:20:09
+vegan,Vegan Bake 811,french,22.32,68.77,49.19,10/16/2022,17:20:09
+vegan,Vegan Wrap 597,south east asian,12.49,38.38,11.46,10/16/2022,17:20:09
+vegan,Vegan Stew 746,italian,36.92,187.5,39.73,10/16/2022,17:20:09
+vegan,Vegan Tacos 801,mexican,32.15,245.76,10.86,10/16/2022,17:20:09
+vegan,Vegan Salad 882,south east asian,64.85,147.0,51.27,10/16/2022,17:20:09
+vegan,Vegan Hash 787,chinese,,71.43,57.56,10/16/2022,17:20:09
+vegan,Vegan Pie 128,south east asian,40.75,130.72,27.67,10/16/2022,17:20:09
+vegan,Vegan Curry 240,south east asian,16.25,98.78,17.92,10/16/2022,17:20:09
+vegan,Vegan Skillet 819,italian,14.87,162.72,16.37,10/16/2022,17:20:09
+vegan,Vegan Roast 343,french,58.19,139.82,35.77,10/16/2022,17:20:09
+vegan,Vegan Salad 273,french,0.1,117.41,79.95,10/16/2022,17:20:09
+vegan,Vegan Stew 899,italian,44.59,173.74,0.1,10/16/2022,17:20:09
+vegan,Vegan Bake 642,american,38.68,77.11,66.24,10/16/2022,17:20:09
+vegan,Vegan Tacos 831,japanese,12.81,,35.32,10/16/2022,17:20:09
+vegan,Vegan Stir Fry 16,indian,27.57,184.73,63.97,10/16/2022,17:20:09
+vegan,Vegan Wrap 762,indian,45.8,153.32,46.19,10/16/2022,17:20:09
+vegan,Vegan Salad 792,american,14.62,240.53,20.81,10/16/2022,17:20:09
+vegan,Vegan Casserole 161,french,18.72,210.98,34.78,10/16/2022,17:20:09
+vegan,Vegan Bake 937,chinese,39.15,113.7,67.28,10/16/2022,17:20:09
+vegan,Vegan Pie 224,mexican,20.94,153.07,47.91,10/16/2022,17:20:09
+vegan,Vegan Bowl 833,american,22.32,85.1,32.69,10/16/2022,17:20:09
+vegan,Vegan Stir Fry 978,italian,22.25,166.29,56.18,10/16/2022,17:20:09
+vegan,Vegan Fritters 813,chinese,28.14,128.4,23.67,10/16/2022,17:20:09
+vegan,Vegan Roast 6,chinese,23.89,50.19,43.24,10/16/2022,17:20:09
+vegan,Vegan Bake 771,indian,7.23,121.51,35.6,10/16/2022,17:20:09
+vegan,Vegan Pie 571,indian,9.56,44.26,40.59,10/16/2022,17:20:09
+vegan,Vegan Tacos 518,south east asian,0.1,140.74,63.79,10/16/2022,17:20:09
+vegan,Vegan Casserole 156,french,22.7,112.84,7.58,10/16/2022,17:20:09
+vegan,Vegan Skillet 479,south east asian,51.5,60.9,30.89,10/16/2022,17:20:09
+vegan,Vegan Casserole 165,chinese,31.96,76.23,47.56,10/16/2022,17:20:09
+vegan,Vegan Fritters 729,american,40.61,134.32,71.56,10/16/2022,17:20:09
+vegan,Vegan Hash 174,mexican,54.82,195.87,11.56,10/16/2022,17:20:09
+vegan,Vegan Roast 906,indian,58.77,150.48,43.91,10/16/2022,17:20:09
+vegan,Vegan Casserole 276,mexican,40.04,104.86,39.15,10/16/2022,17:20:09
+vegan,Vegan Skillet 845,mediterranean,23.13,151.93,98.28,10/16/2022,17:20:09
+vegan,Vegan Pie 433,south east asian,21.7,154.64,40.93,10/16/2022,17:20:09
+vegan,Vegan Roast 847,american,55.57,131.55,62.64,10/16/2022,17:20:09
+vegan,Vegan Roast 99,mediterranean,41.56,184.67,15.6,10/16/2022,17:20:09
+vegan,Vegan Salad 937,mexican,37.55,118.98,45.66,10/16/2022,17:20:09
+vegan,Vegan Stir Fry 983,south east asian,52.04,120.5,35.92,10/16/2022,17:20:09
+vegan,Vegan Fritters 238,french,43.8,0.1,52.97,10/16/2022,17:20:09
+vegan,Vegan Wrap 831,south east asian,32.91,190.17,36.43,10/16/2022,17:20:09
+vegan,Vegan Soup 677,italian,26.13,196.37,50.73,10/16/2022,17:20:09
+vegan,Vegan Wrap 8,south east asian,7.57,143.31,4.8,10/16/2022,17:20:09
+vegan,Vegan Pie 637,mediterranean,37.25,263.22,18.0,10/16/2022,17:20:09
+vegan,Vegan Wrap 615,british,55.85,78.23,44.48,10/16/2022,17:20:09
+vegan,Vegan Bake 979,chinese,39.93,78.08,38.21,10/16/2022,17:20:09
+vegan,Vegan Tacos 235,mediterranean,42.88,106.35,7.7,10/16/2022,17:20:09
+vegan,Vegan Skillet 220,japanese,41.38,76.44,34.39,10/16/2022,17:20:09
+vegan,Vegan Stir Fry 452,french,25.59,193.71,27.21,10/16/2022,17:20:09
+vegan,Vegan Skillet 944,british,25.58,134.88,37.17,10/16/2022,17:20:09
+vegan,Vegan Bowl 298,italian,7.48,37.08,29.36,10/16/2022,17:20:09
+vegan,Vegan Hash 231,chinese,42.18,92.05,87.49,10/16/2022,17:20:09
+vegan,Vegan Bowl 371,south east asian,15.26,90.4,42.83,10/16/2022,17:20:09
+vegan,Vegan Bowl 640,french,39.14,234.17,30.93,10/16/2022,17:20:09
+vegan,Vegan Roast 970,indian,32.13,85.14,0.1,10/16/2022,17:20:09
+vegan,Vegan Stir Fry 921,british,33.02,59.24,42.53,10/16/2022,17:20:09
+vegan,Vegan Soup 188,mexican,45.61,39.7,60.95,10/16/2022,17:20:09
+vegan,Vegan Bowl 133,indian,23.4,235.38,62.55,10/16/2022,17:20:09
+vegan,Vegan Casserole 409,british,25.74,124.4,40.75,10/16/2022,17:20:09
+vegan,Vegan Skillet 447,south east asian,34.46,107.14,11.16,10/16/2022,17:20:09
+vegan,Vegan Pie 780,italian,11.05,108.63,23.6,10/16/2022,17:20:09
+vegan,Vegan Stir Fry 330,japanese,28.2,208.64,50.13,10/16/2022,17:20:09
+vegan,Vegan Stir Fry 207,french,21.44,85.38,46.28,10/16/2022,17:20:09
+vegan,Vegan Stew 295,japanese,50.62,73.53,27.62,10/16/2022,17:20:09
+vegan,Vegan Curry 445,mediterranean,54.24,157.73,74.2,10/16/2022,17:20:09
+vegan,Vegan Bake 674,indian,16.96,124.23,16.48,10/16/2022,17:20:09
+vegan,Vegan Stir Fry 435,american,16.5,56.89,37.11,10/16/2022,17:20:09
+vegan,Vegan Hash 237,british,49.74,64.93,96.19,10/16/2022,17:20:09
+vegan,Vegan Casserole 540,chinese,27.1,124.32,14.09,10/16/2022,17:20:09
+vegan,Vegan Fritters 528,mediterranean,54.59,137.81,13.06,10/16/2022,17:20:09
+vegan,Vegan Bake 668,chinese,60.59,168.55,41.91,10/16/2022,17:20:09
+vegan,Vegan Fritters 961,indian,17.79,161.27,64.26,10/16/2022,17:20:09
+vegan,Vegan Skillet 586,american,40.28,180.93,6.83,10/16/2022,17:20:09
+vegan,Vegan Stir Fry 33,italian,39.79,101.95,2.96,10/16/2022,17:20:09
+vegan,Vegan Curry 401,mediterranean,32.41,86.19,31.14,10/16/2022,17:20:09
+vegan,Vegan Soup 759,mexican,42.74,101.73,31.81,10/16/2022,17:20:09
+vegan,Vegan Roast 492,british,43.35,119.97,40.79,10/16/2022,17:20:09
+vegan,Vegan Pie 250,mediterranean,0.83,1.57,45.48,10/16/2022,17:20:09
+vegan,Vegan Roast 110,indian,26.91,159.86,58.65,10/16/2022,17:20:09
+vegan,Vegan Soup 204,french,30.44,0.1,55.38,10/16/2022,17:20:09
+vegan,Vegan Wrap 242,japanese,19.61,160.43,57.21,10/16/2022,17:20:09
+vegan,Vegan Fritters 269,american,19.67,106.41,54.95,10/16/2022,17:20:09
+vegan,Vegan Soup 575,mediterranean,42.26,154.72,41.76,10/16/2022,17:20:09
+vegan,Vegan Skillet 331,indian,30.47,208.7,21.99,10/16/2022,17:20:09
+vegan,Vegan Stew 57,italian,50.38,30.16,13.79,10/16/2022,17:20:09
+vegan,Vegan Fritters 316,mexican,35.57,52.9,32.31,10/16/2022,17:20:09
+vegan,Vegan Salad 11,american,39.05,102.04,53.44,10/16/2022,17:20:09
+vegan,Vegan Stew 156,indian,22.89,109.88,60.87,10/16/2022,17:20:09
+vegan,Vegan Bake 451,british,46.47,54.92,68.25,10/16/2022,17:20:09
+vegan,Vegan Curry 903,french,40.07,129.43,35.82,10/16/2022,17:20:09
+vegan,Vegan Curry 141,south east asian,39.12,172.32,28.76,10/16/2022,17:20:09
+keto,Keto Curry 920,chinese,42.1,1.72,150.14,10/16/2022,17:20:09
+keto,Keto Stew 352,chinese,154.14,3.74,149.87,10/16/2022,17:20:09
+keto,Keto Stir Fry 248,mediterranean,94.57,0.1,124.67,10/16/2022,17:20:09
+keto,Keto Bowl 103,british,98.98,4.39,139.86,10/16/2022,17:20:09
+keto,Keto Wrap 864,italian,38.84,0.1,95.35,10/16/2022,17:20:09
+keto,Keto Salad 823,indian,20.2,24.53,85.25,10/16/2022,17:20:09
+keto,Keto Tacos 304,japanese,138.21,26.03,102.85,10/16/2022,17:20:09
+keto,Keto Stir Fry 969,mexican,37.76,20.32,118.1,10/16/2022,17:20:09
+keto,Keto Tacos 67,british,54.88,25.1,140.35,10/16/2022,17:20:09
+keto,Keto Bake 571,indian,143.56,0.1,76.12,10/16/2022,17:20:09
+keto,Keto Salad 184,british,24.02,9.06,166.48,10/16/2022,17:20:09
+keto,Keto Tacos 968,mexican,140.8,19.45,44.42,10/16/2022,17:20:09
+keto,Keto Stir Fry 727,chinese,128.98,27.32,15.45,10/16/2022,17:20:09
+keto,Keto Fritters 858,mediterranean,51.16,32.94,35.74,10/16/2022,17:20:09
+keto,Keto Pie 477,japanese,37.71,13.23,65.91,10/16/2022,17:20:09
+keto,Keto Curry 151,chinese,94.27,7.72,0.1,10/16/2022,17:20:09
+keto,Keto Stew 415,chinese,56.15,10.91,62.08,10/16/2022,17:20:09
+keto,Keto Bowl 845,south east asian,92.54,22.45,12.3,10/16/2022,17:20:09
+keto,Keto Wrap 251,mediterranean,43.9,29.08,43.85,10/16/2022,17:20:09
+keto,Keto Soup 142,italian,63.63,21.64,74.77,10/16/2022,17:20:09
+keto,Keto Salad 454,mexican,56.95,24.85,123.11,10/16/2022,17:20:09
+keto,Keto Soup 280,chinese,70.63,27.97,97.03,10/16/2022,17:20:09
+keto,Keto Bowl 759,mexican,166.35,6.6,152.34,10/16/2022,17:20:09
+keto,Keto Soup 394,south east asian,99.78,35.75,136.88,10/16/2022,17:20:09
+keto,Keto Casserole 145,american,91.4,17.48,66.77,10/16/2022,17:20:09
+keto,Keto Hash 101,american,98.93,12.33,65.65,10/16/2022,17:20:09
+keto,Keto Hash 247,south east asian,114.54,22.32,163.08,10/16/2022,17:20:09
+keto,Keto Soup 928,japanese,107.64,23.04,104.97,10/16/2022,17:20:09
+keto,Keto Fritters 536,mexican,69.66,13.34,133.87,10/16/2022,17:20:09
+keto,Keto Stew 452,mexican,26.78,31.23,104.82,10/16/2022,17:20:09
+keto,Keto Casserole 291,chinese,118.16,7.35,207.75,10/16/2022,17:20:09
+keto,Keto Hash 504,american,89.54,35.9,118.76,10/16/2022,17:20:09
+keto,Keto Stew 986,japanese,116.18,24.77,110.81,10/16/2022,17:20:09
+keto,Keto Salad 448,mexican,95.85,19.3,36.66,10/16/2022,17:20:09
+keto,Keto Soup 911,japanese,0.1,22.05,83.71,10/16/2022,17:20:09
+keto,Keto Skillet 392,indian,67.79,26.59,88.17,10/16/2022,17:20:09
+keto,Keto Roast 372,italian,69.18,29.97,55.35,10/16/2022,17:20:09
+keto,Keto Skillet 466,mediterranean,131.52,26.6,,10/16/2022,17:20:09
+keto,Keto Pie 42,japanese,45.25,26.6,137.39,10/16/2022,17:20:09
+keto,Keto Curry 124,japanese,39.47,27.67,42.64,10/16/2022,17:20:09
+keto,Keto Roast 226,mediterranean,106.49,25.83,82.89,10/16/2022,17:20:09
+keto,Keto Wrap 341,indian,62.88,9.07,30.41,10/16/2022,17:20:09
+keto,Keto Salad 449,mediterranean,107.09,16.91,100.49,10/16/2022,17:20:09
+keto,Keto Roast 40,japanese,88.54,25.31,99.22,10/16/2022,17:20:09
+keto,Keto Stew 273,mexican,1.0,17.38,113.11,10/16/2022,17:20:09
+keto,Keto Pie 328,french,88.45,20.54,0.1,10/16/2022,17:20:09
+keto,Keto Stew 599,japanese,107.42,8.46,,10/16/2022,17:20:09
+keto,Keto Tacos 314,american,124.97,19.05,84.26,10/16/2022,17:20:09
+keto,Keto Hash 170,chinese,98.78,26.29,117.25,10/16/2022,17:20:09
+keto,Keto Stew 928,chinese,94.26,27.85,157.9,10/16/2022,17:20:09
+keto,Keto Stew 277,mediterranean,159.46,22.57,15.7,10/16/2022,17:20:09
+keto,Keto Casserole 602,indian,124.73,17.2,81.84,10/16/2022,17:20:09
+keto,Keto Casserole 851,american,54.08,22.11,131.48,10/16/2022,17:20:09
+keto,Keto Casserole 425,american,131.01,21.99,136.92,10/16/2022,17:20:09
+keto,Keto Tacos 756,french,94.84,22.15,152.49,10/16/2022,17:20:09
+keto,Keto Pie 502,american,91.99,11.91,113.72,10/16/2022,17:20:09
+keto,Keto Salad 483,british,189.29,14.76,133.23,10/16/2022,17:20:09
+keto,Keto Wrap 966,indian,94.41,43.38,89.21,10/16/2022,17:20:09
+keto,Keto Casserole 227,british,74.18,22.49,156.55,10/16/2022,17:20:09
+keto,Keto Fritters 115,french,146.66,19.05,91.73,10/16/2022,17:20:09
+keto,Keto Curry 181,british,57.62,13.06,58.15,10/16/2022,17:20:09
+keto,Keto Stew 662,french,,21.27,106.51,10/16/2022,17:20:09
+keto,Keto Stew 261,french,41.6,22.24,143.05,10/16/2022,17:20:09
+keto,Keto Wrap 156,south east asian,53.57,26.77,69.09,10/16/2022,17:20:09
+keto,Keto Stew 920,american,148.55,26.33,143.27,10/16/2022,17:20:09
+keto,Keto Pie 315,french,216.57,2.91,69.39,10/16/2022,17:20:09
+keto,Keto Pie 550,british,41.51,17.0,43.09,10/16/2022,17:20:09
+keto,Keto Curry 39,mexican,92.33,24.81,137.93,10/16/2022,17:20:09
+keto,Keto Bake 798,japanese,185.45,22.34,7.56,10/16/2022,17:20:09
+keto,Keto Casserole 320,japanese,11.68,20.17,103.3,10/16/2022,17:20:09
+keto,Keto Pie 468,french,114.7,27.26,58.79,10/16/2022,17:20:09
+keto,Keto Stir Fry 262,french,91.66,21.73,7.9,10/16/2022,17:20:09
+keto,Keto Bake 996,south east asian,80.32,11.87,80.33,10/16/2022,17:20:09
+keto,Keto Soup 521,mexican,94.09,26.05,169.45,10/16/2022,17:20:09
+keto,Keto Tacos 989,mediterranean,109.69,26.11,86.12,10/16/2022,17:20:09
+keto,Keto Skillet 561,american,134.08,32.92,207.81,10/16/2022,17:20:09
+keto,Keto Stew 833,british,90.51,19.02,74.29,10/16/2022,17:20:09
+keto,Keto Curry 841,indian,94.17,12.32,114.73,10/16/2022,17:20:09
+keto,Keto Tacos 156,british,100.54,21.51,141.86,10/16/2022,17:20:09
+keto,Keto Tacos 339,south east asian,102.48,24.85,50.73,10/16/2022,17:20:09
+keto,Keto Stir Fry 710,south east asian,48.44,9.56,107.85,10/16/2022,17:20:09
+keto,Keto Salad 707,indian,49.39,16.95,177.62,10/16/2022,17:20:09
+keto,Keto Bake 73,south east asian,132.42,24.92,75.87,10/16/2022,17:20:09
+keto,Keto Fritters 947,french,56.49,19.45,174.11,10/16/2022,17:20:09
+keto,Keto Hash 93,french,120.38,0.1,166.86,10/16/2022,17:20:09
+keto,Keto Bake 897,mediterranean,104.94,22.47,169.65,10/16/2022,17:20:09
+keto,Keto Fritters 761,french,54.68,21.38,99.28,10/16/2022,17:20:09
+keto,Keto Casserole 496,mediterranean,,26.08,98.21,10/16/2022,17:20:09
+keto,Keto Tacos 745,american,108.74,9.1,144.72,10/16/2022,17:20:09
+keto,Keto Stew 198,mexican,95.71,0.1,39.71,10/16/2022,17:20:09
+keto,Keto Curry 312,british,0.71,32.35,110.73,10/16/2022,17:20:09
+keto,Keto Roast 867,british,102.46,24.59,129.97,10/16/2022,17:20:09
+keto,Keto Pie 697,american,133.7,4.2,134.57,10/16/2022,17:20:09
+keto,Keto Bowl 67,japanese,144.12,15.73,174.07,10/16/2022,17:20:09
+keto,Keto Casserole 887,american,56.25,14.93,93.16,10/16/2022,17:20:09
+keto,Keto Hash 426,italian,49.95,0.1,86.09,10/16/2022,17:20:09
+keto,Keto Hash 401,mexican,177.09,20.13,181.01,10/16/2022,17:20:09
+keto,Keto Stew 885,mexican,127.19,22.79,185.28,10/16/2022,17:20:09
+keto,Keto Bake 62,french,106.48,17.12,132.27,10/16/2022,17:20:09
+keto,Keto Stir Fry 305,south east asian,77.83,24.19,179.18,10/16/2022,17:20:09
+keto,Keto Roast 212,mediterranean,0.1,25.17,0.1,10/16/2022,17:20:09
+keto,Keto Stew 238,chinese,97.63,30.0,60.38,10/16/2022,17:20:09
+keto,Keto Salad 177,japanese,88.49,15.08,114.66,10/16/2022,17:20:09
+keto,Keto Casserole 591,french,127.55,30.49,156.42,10/16/2022,17:20:09
+keto,Keto Hash 197,japanese,0.1,18.11,154.65,10/16/2022,17:20:09
+keto,Keto Pie 555,mediterranean,82.06,13.08,192.61,10/16/2022,17:20:09
+keto,Keto Curry 390,british,117.97,19.63,120.87,10/16/2022,17:20:09
+keto,Keto Tacos 330,indian,0.1,21.5,127.82,10/16/2022,17:20:09
+keto,Keto Tacos 197,indian,160.65,10.02,90.63,10/16/2022,17:20:09
+keto,Keto Fritters 527,mexican,203.94,34.8,171.57,10/16/2022,17:20:09
+keto,Keto Stew 750,south east asian,125.5,8.99,96.89,10/16/2022,17:20:09
+keto,Keto Stew 69,american,161.68,16.45,0.1,10/16/2022,17:20:09
+keto,Keto Stir Fry 891,south east asian,91.92,19.13,94.95,10/16/2022,17:20:09
+keto,Keto Salad 956,american,21.02,14.83,147.62,10/16/2022,17:20:09
+keto,Keto Curry 380,japanese,120.08,31.23,107.53,10/16/2022,17:20:09
+keto,Keto Pie 481,british,121.77,3.4,126.98,10/16/2022,17:20:09
+keto,Keto Curry 756,indian,70.11,18.17,74.57,10/16/2022,17:20:09
+keto,Keto Soup 789,south east asian,69.93,29.8,125.46,10/16/2022,17:20:09
+keto,Keto Bake 105,italian,115.92,11.34,19.39,10/16/2022,17:20:09
+keto,Keto Soup 91,french,74.04,0.1,80.54,10/16/2022,17:20:09
+keto,Keto Curry 380,indian,13.37,5.59,171.05,10/16/2022,17:20:09
+keto,Keto Casserole 863,american,56.48,13.68,143.89,10/16/2022,17:20:09
+keto,Keto Stir Fry 782,mexican,77.37,35.5,86.03,10/16/2022,17:20:09
+keto,Keto Pie 505,japanese,141.02,41.07,78.27,10/16/2022,17:20:09
+keto,Keto Roast 854,french,21.5,30.28,53.99,10/16/2022,17:20:09
+keto,Keto Salad 402,mexican,79.08,10.42,55.93,10/16/2022,17:20:09
+keto,Keto Bowl 990,indian,84.16,20.7,141.41,10/16/2022,17:20:09
+keto,Keto Salad 34,mediterranean,123.29,28.19,253.2,10/16/2022,17:20:09
+keto,Keto Stir Fry 844,american,124.6,28.19,80.57,10/16/2022,17:20:09
+keto,Keto Hash 642,british,114.35,11.72,87.42,10/16/2022,17:20:09
+keto,Keto Skillet 701,italian,62.79,1.58,4.59,10/16/2022,17:20:09
+keto,Keto Tacos 548,japanese,30.91,18.45,44.61,10/16/2022,17:20:09
+keto,Keto Roast 770,mediterranean,70.18,33.23,146.41,10/16/2022,17:20:09
+keto,Keto Bowl 901,japanese,69.25,,128.03,10/16/2022,17:20:09
+keto,Keto Casserole 513,mediterranean,91.64,0.1,121.64,10/16/2022,17:20:09
+keto,Keto Salad 780,mexican,77.4,38.17,,10/16/2022,17:20:09
+keto,Keto Pie 1,chinese,85.49,18.86,115.89,10/16/2022,17:20:09
+keto,Keto Skillet 173,mediterranean,152.0,19.98,154.84,10/16/2022,17:20:09
+keto,Keto Soup 109,mediterranean,55.71,30.91,231.59,10/16/2022,17:20:09
+keto,Keto Fritters 25,italian,0.1,14.52,177.75,10/16/2022,17:20:09
+keto,Keto Roast 614,mediterranean,135.39,24.84,176.97,10/16/2022,17:20:09
+keto,Keto Soup 396,chinese,158.48,23.59,159.79,10/16/2022,17:20:09
+keto,Keto Bowl 377,american,166.8,22.16,154.27,10/16/2022,17:20:09
+keto,Keto Pie 545,mexican,63.61,20.11,188.98,10/16/2022,17:20:09
+keto,Keto Bake 287,british,80.31,37.82,98.24,10/16/2022,17:20:09
+keto,Keto Bake 445,british,175.19,26.82,106.15,10/16/2022,17:20:09
+keto,Keto Pie 853,south east asian,65.61,31.48,139.82,10/16/2022,17:20:09
+keto,Keto Stir Fry 912,chinese,96.55,18.25,167.51,10/16/2022,17:20:09
+keto,Keto Stew 436,chinese,117.65,26.31,136.41,10/16/2022,17:20:09
+keto,Keto Wrap 32,mexican,75.58,27.87,107.49,10/16/2022,17:20:09
+keto,Keto Salad 52,french,180.93,2.65,137.49,10/16/2022,17:20:09
+keto,Keto Soup 772,american,85.13,15.66,0.1,10/16/2022,17:20:09
+keto,Keto Soup 557,british,0.1,28.4,188.93,10/16/2022,17:20:09
+keto,Keto Pie 228,indian,106.15,20.46,183.05,10/16/2022,17:20:09
+keto,Keto Tacos 345,french,47.63,22.01,134.17,10/16/2022,17:20:09
+keto,Keto Curry 496,british,111.12,42.73,145.2,10/16/2022,17:20:09
+keto,Keto Tacos 242,chinese,86.71,23.81,65.13,10/16/2022,17:20:09
+keto,Keto Stir Fry 716,british,146.98,33.72,55.49,10/16/2022,17:20:09
+keto,Keto Hash 827,british,105.29,24.6,164.69,10/16/2022,17:20:09
+keto,Keto Salad 845,american,153.46,23.09,144.33,10/16/2022,17:20:09
+keto,Keto Fritters 68,chinese,111.14,27.13,21.55,10/16/2022,17:20:09
+keto,Keto Curry 106,south east asian,145.7,22.87,4.74,10/16/2022,17:20:09
+keto,Keto Roast 565,italian,153.51,19.12,121.26,10/16/2022,17:20:09
+keto,Keto Bake 70,south east asian,49.61,10.07,99.19,10/16/2022,17:20:09
+keto,Keto Curry 285,french,14.94,28.24,76.84,10/16/2022,17:20:09
+keto,Keto Stew 472,south east asian,6.44,13.21,109.58,10/16/2022,17:20:09
+keto,Keto Casserole 582,british,164.58,13.15,72.43,10/16/2022,17:20:09
+keto,Keto Hash 738,french,99.52,14.48,101.47,10/16/2022,17:20:09
+keto,Keto Roast 166,japanese,53.24,19.58,114.96,10/16/2022,17:20:09
+keto,Keto Wrap 874,mexican,87.49,20.05,172.71,10/16/2022,17:20:09
+keto,Keto Salad 935,british,144.33,16.71,98.23,10/16/2022,17:20:09
+keto,Keto Stir Fry 811,indian,63.67,25.89,105.17,10/16/2022,17:20:09
+keto,Keto Stir Fry 352,mexican,155.12,18.44,200.22,10/16/2022,17:20:09
+keto,Keto Soup 250,british,103.1,43.93,51.84,10/16/2022,17:20:09
+keto,Keto Salad 525,japanese,147.9,11.73,108.86,10/16/2022,17:20:09
+keto,Keto Tacos 806,italian,102.07,10.49,100.1,10/16/2022,17:20:09
+keto,Keto Pie 842,south east asian,58.5,16.53,31.42,10/16/2022,17:20:09
+keto,Keto Tacos 3,south east asian,95.35,16.0,95.07,10/16/2022,17:20:09
+keto,Keto Soup 593,chinese,121.1,34.36,84.46,10/16/2022,17:20:09
+keto,Keto Stew 575,japanese,79.22,23.65,196.12,10/16/2022,17:20:09
+keto,Keto Stew 860,french,110.43,32.33,97.81,10/16/2022,17:20:09
+keto,Keto Hash 497,japanese,58.94,5.14,117.76,10/16/2022,17:20:09
+keto,Keto Bowl 109,american,147.91,0.9,39.63,10/16/2022,17:20:09
+keto,Keto Wrap 698,indian,87.15,16.34,186.95,10/16/2022,17:20:09
+keto,Keto Stir Fry 613,mexican,96.55,23.93,62.59,10/16/2022,17:20:09
+keto,Keto Wrap 445,american,39.96,28.35,175.24,10/16/2022,17:20:09
+keto,Keto Stir Fry 299,south east asian,108.01,0.1,126.62,10/16/2022,17:20:09
+keto,Keto Bake 355,mediterranean,87.72,27.07,105.89,10/16/2022,17:20:09
+keto,Keto Bake 475,mexican,93.04,21.15,118.91,10/16/2022,17:20:09
+keto,Keto Soup 217,south east asian,41.13,21.76,180.95,10/16/2022,17:20:09
+keto,Keto Stir Fry 453,french,63.66,16.29,60.24,10/16/2022,17:20:09
+mediterranean,Mediterranean Casserole 807,british,22.07,33.22,17.45,10/16/2022,17:20:09
+mediterranean,Mediterranean Curry 679,south east asian,46.13,78.97,39.93,10/16/2022,17:20:09
+mediterranean,Mediterranean Hash 451,indian,133.75,135.68,28.68,10/16/2022,17:20:09
+mediterranean,Mediterranean Curry 730,south east asian,35.05,8.95,75.49,10/16/2022,17:20:09
+mediterranean,Mediterranean Salad 418,american,45.9,73.33,68.74,10/16/2022,17:20:09
+mediterranean,Mediterranean Hash 596,italian,48.19,15.24,52.85,10/16/2022,17:20:09
+mediterranean,Mediterranean Skillet 609,american,79.16,93.26,68.75,10/16/2022,17:20:09
+mediterranean,Mediterranean Bowl 465,italian,39.17,15.32,36.66,10/16/2022,17:20:09
+mediterranean,Mediterranean Roast 859,chinese,39.18,7.15,93.82,10/16/2022,17:20:09
+mediterranean,Mediterranean Pie 642,japanese,83.1,118.71,64.42,10/16/2022,17:20:09
+mediterranean,Mediterranean Bake 190,south east asian,47.17,185.39,63.9,10/16/2022,17:20:09
+mediterranean,Mediterranean Hash 210,french,73.96,39.57,87.61,10/16/2022,17:20:09
+mediterranean,Mediterranean Curry 718,french,91.98,95.39,52.36,10/16/2022,17:20:09
+mediterranean,Mediterranean Skillet 321,indian,58.31,56.93,38.76,10/16/2022,17:20:09
+mediterranean,Mediterranean Hash 200,south east asian,,59.35,77.51,10/16/2022,17:20:09
+mediterranean,Mediterranean Roast 318,indian,42.81,102.41,43.56,10/16/2022,17:20:09
+mediterranean,Mediterranean Stew 651,indian,52.21,118.79,71.86,10/16/2022,17:20:09
+mediterranean,Mediterranean Tacos 457,american,34.33,84.35,93.15,10/16/2022,17:20:09
+mediterranean,Mediterranean Bowl 144,chinese,18.72,54.63,40.89,10/16/2022,17:20:09
+mediterranean,Mediterranean Salad 94,french,43.99,80.29,36.62,10/16/2022,17:20:09
+mediterranean,Mediterranean Curry 409,american,82.59,113.73,11.48,10/16/2022,17:20:09
+mediterranean,Mediterranean Salad 147,british,80.28,38.75,50.23,10/16/2022,17:20:09
+mediterranean,Mediterranean Fritters 732,american,117.73,13.43,112.35,10/16/2022,17:20:09
+mediterranean,Mediterranean Curry 420,mexican,89.42,118.82,25.11,10/16/2022,17:20:09
+mediterranean,Mediterranean Pie 482,french,76.63,89.23,79.91,10/16/2022,17:20:09
+mediterranean,Mediterranean Skillet 922,french,,123.84,64.51,10/16/2022,17:20:09
+mediterranean,Mediterranean Curry 153,mediterranean,28.64,57.29,34.48,10/16/2022,17:20:09
+mediterranean,Mediterranean Roast 853,british,89.28,73.79,85.77,10/16/2022,17:20:09
+mediterranean,Mediterranean Bowl 872,mexican,35.34,143.02,48.47,10/16/2022,17:20:09
+mediterranean,Mediterranean Roast 683,chinese,49.81,44.41,13.28,10/16/2022,17:20:09
+mediterranean,Mediterranean Curry 577,italian,151.79,36.56,18.57,10/16/2022,17:20:09
+mediterranean,Mediterranean Hash 471,south east asian,105.88,82.58,64.31,10/16/2022,17:20:09
+mediterranean,Mediterranean Soup 156,japanese,27.79,4.2,52.92,10/16/2022,17:20:09
+mediterranean,Mediterranean Bake 284,south east asian,20.33,58.51,29.22,10/16/2022,17:20:09
+mediterranean,Mediterranean Skillet 649,british,86.81,110.1,78.52,10/16/2022,17:20:09
+mediterranean,Mediterranean Wrap 912,south east asian,69.1,100.46,53.54,10/16/2022,17:20:09
+mediterranean,Mediterranean Wrap 325,italian,35.47,96.86,47.65,10/16/2022,17:20:09
+mediterranean,Mediterranean Tacos 101,south east asian,40.85,53.47,33.44,10/16/2022,17:20:09
+mediterranean,Mediterranean Curry 837,italian,62.36,45.49,70.21,10/16/2022,17:20:09
+mediterranean,Mediterranean Salad 650,italian,17.8,120.85,36.57,10/16/2022,17:20:09
+mediterranean,Mediterranean Stew 194,mediterranean,94.28,80.8,20.02,10/16/2022,17:20:09
+mediterranean,Mediterranean Salad 613,british,45.45,155.52,49.97,10/16/2022,17:20:09
+mediterranean,Mediterranean Soup 744,italian,118.34,143.04,95.77,10/16/2022,17:20:09
+mediterranean,Mediterranean Roast 610,mediterranean,87.36,51.12,55.61,10/16/2022,17:20:09
+mediterranean,Mediterranean Hash 866,indian,39.71,115.94,70.02,10/16/2022,17:20:09
+mediterranean,Mediterranean Casserole 978,south east asian,19.49,67.53,31.35,10/16/2022,17:20:09
+mediterranean,Mediterranean Stew 281,south east asian,91.69,49.79,0.1,10/16/2022,17:20:09
+mediterranean,Mediterranean Curry 111,french,102.65,63.95,31.23,10/16/2022,17:20:09
+mediterranean,Mediterranean Stew 488,south east asian,60.73,68.26,46.7,10/16/2022,17:20:09
+mediterranean,Mediterranean Hash 947,italian,108.0,96.9,68.15,10/16/2022,17:20:09
+mediterranean,Mediterranean Stew 592,chinese,82.65,68.22,0.1,10/16/2022,17:20:09
+mediterranean,Mediterranean Pie 267,british,29.46,101.25,52.84,10/16/2022,17:20:09
+mediterranean,Mediterranean Casserole 378,american,21.93,78.9,57.61,10/16/2022,17:20:09
+mediterranean,Mediterranean Stew 705,south east asian,60.85,16.0,85.25,10/16/2022,17:20:09
+mediterranean,Mediterranean Bake 897,french,59.03,121.12,48.67,10/16/2022,17:20:09
+mediterranean,Mediterranean Pie 749,italian,42.48,84.76,57.95,10/16/2022,17:20:09
+mediterranean,Mediterranean Fritters 788,italian,36.47,75.0,34.75,10/16/2022,17:20:09
+mediterranean,Mediterranean Bowl 782,mediterranean,57.31,141.81,45.11,10/16/2022,17:20:09
+mediterranean,Mediterranean Bake 504,italian,46.59,88.42,89.65,10/16/2022,17:20:09
+mediterranean,Mediterranean Salad 882,french,101.51,105.63,90.69,10/16/2022,17:20:09
+mediterranean,Mediterranean Pie 143,south east asian,45.44,49.34,19.75,10/16/2022,17:20:09
+mediterranean,Mediterranean Stew 815,indian,84.58,66.64,81.23,10/16/2022,17:20:09
+mediterranean,Mediterranean Stir Fry 8,mediterranean,13.57,69.39,38.44,10/16/2022,17:20:09
+mediterranean,Mediterranean Roast 114,italian,91.81,69.18,68.49,10/16/2022,17:20:09
+mediterranean,Mediterranean Bake 929,italian,47.37,84.75,74.68,10/16/2022,17:20:09
+mediterranean,Mediterranean Pie 874,mexican,41.07,122.29,59.47,10/16/2022,17:20:09
+mediterranean,Mediterranean Tacos 901,american,0.1,30.98,87.53,10/16/2022,17:20:09
+mediterranean,Mediterranean Fritters 952,italian,37.13,73.18,50.33,10/16/2022,17:20:09
+mediterranean,Mediterranean Salad 60,mediterranean,34.77,90.92,47.5,10/16/2022,17:20:09
+mediterranean,Mediterranean Bowl 936,italian,23.11,94.29,77.29,10/16/2022,17:20:09
+mediterranean,Mediterranean Soup 5,chinese,57.12,46.61,48.2,10/16/2022,17:20:09
+mediterranean,Mediterranean Casserole 271,japanese,56.43,44.41,37.69,10/16/2022,17:20:09
+mediterranean,Mediterranean Soup 790,chinese,74.56,100.91,72.22,10/16/2022,17:20:09
+mediterranean,Mediterranean Roast 129,mediterranean,89.88,42.63,27.41,10/16/2022,17:20:09
+mediterranean,Mediterranean Stir Fry 539,american,25.85,62.33,38.14,10/16/2022,17:20:09
+mediterranean,Mediterranean Curry 842,indian,50.53,127.14,54.98,10/16/2022,17:20:09
+mediterranean,Mediterranean Bowl 594,mexican,51.3,80.17,56.41,10/16/2022,17:20:09
+mediterranean,Mediterranean Skillet 639,american,122.3,46.19,71.48,10/16/2022,17:20:09
+mediterranean,Mediterranean Hash 337,american,83.12,130.7,28.57,10/16/2022,17:20:09
+mediterranean,Mediterranean Pie 186,chinese,8.24,29.65,76.2,10/16/2022,17:20:09
+mediterranean,Mediterranean Soup 465,french,66.88,59.1,38.23,10/16/2022,17:20:09
+mediterranean,Mediterranean Bowl 714,american,25.15,43.79,53.85,10/16/2022,17:20:09
+mediterranean,Mediterranean Bake 540,american,40.05,,30.4,10/16/2022,17:20:09
+mediterranean,Mediterranean Salad 710,indian,25.99,133.14,33.59,10/16/2022,17:20:09
+mediterranean,Mediterranean Fritters 737,french,29.52,59.11,69.53,10/16/2022,17:20:09
+mediterranean,Mediterranean Hash 257,british,57.88,81.79,68.96,10/16/2022,17:20:09
+mediterranean,Mediterranean Wrap 938,south east asian,35.61,89.4,80.39,10/16/2022,17:20:09
+mediterranean,Mediterranean Soup 195,mediterranean,83.39,91.49,68.72,10/16/2022,17:20:09
+mediterranean,Mediterranean Bowl 759,french,35.28,30.05,58.34,10/16/2022,17:20:09
+mediterranean,Mediterranean Curry 930,indian,80.63,101.84,56.07,10/16/2022,17:20:09
+mediterranean,Mediterranean Hash 524,japanese,72.39,50.95,59.24,10/16/2022,17:20:09
+mediterranean,Mediterranean Roast 110,japanese,39.91,82.07,34.41,10/16/2022,17:20:09
+mediterranean,Mediterranean Stew 974,indian,97.97,122.63,63.44,10/16/2022,17:20:09
+mediterranean,Mediterranean Casserole 281,american,54.32,201.27,44.31,10/16/2022,17:20:09
+mediterranean,Mediterranean Soup 289,mediterranean,71.17,113.42,47.15,10/16/2022,17:20:09
+mediterranean,Mediterranean Skillet 195,italian,67.17,90.82,27.28,10/16/2022,17:20:09
+mediterranean,Mediterranean Bake 132,indian,41.75,48.94,116.79,10/16/2022,17:20:09
+mediterranean,Mediterranean Skillet 953,italian,16.29,52.07,48.71,10/16/2022,17:20:09
+mediterranean,Mediterranean Soup 945,indian,80.3,54.21,58.51,10/16/2022,17:20:09
+mediterranean,Mediterranean Tacos 556,italian,41.41,43.29,20.29,10/16/2022,17:20:09
+mediterranean,Mediterranean Pie 122,japanese,89.3,81.57,69.42,10/16/2022,17:20:09
+mediterranean,Mediterranean Stir Fry 38,italian,85.89,87.08,65.68,10/16/2022,17:20:09
+mediterranean,Mediterranean Casserole 195,american,15.06,51.52,64.12,10/16/2022,17:20:09
+mediterranean,Mediterranean Bowl 477,british,18.96,40.76,31.92,10/16/2022,17:20:09
+mediterranean,Mediterranean Pie 344,japanese,17.34,47.13,52.16,10/16/2022,17:20:09
+mediterranean,Mediterranean Salad 641,mediterranean,56.53,122.34,17.46,10/16/2022,17:20:09
+mediterranean,Mediterranean Stir Fry 416,indian,47.45,57.05,79.09,10/16/2022,17:20:09
+mediterranean,Mediterranean Wrap 34,american,93.13,97.16,41.43,10/16/2022,17:20:09
+mediterranean,Mediterranean Soup 31,mediterranean,90.63,58.07,51.03,10/16/2022,17:20:09
+mediterranean,Mediterranean Skillet 353,mediterranean,81.12,38.99,75.42,10/16/2022,17:20:09
+mediterranean,Mediterranean Stir Fry 11,japanese,96.25,169.36,75.05,10/16/2022,17:20:09
+mediterranean,Mediterranean Stew 27,mexican,62.56,13.54,3.9,10/16/2022,17:20:09
+mediterranean,Mediterranean Fritters 921,american,32.56,77.49,65.39,10/16/2022,17:20:09
+mediterranean,Mediterranean Stew 932,british,46.53,140.39,23.12,10/16/2022,17:20:09
+mediterranean,Mediterranean Fritters 485,american,76.37,123.89,68.53,10/16/2022,17:20:09
+mediterranean,Mediterranean Hash 311,french,25.45,124.55,28.68,10/16/2022,17:20:09
+mediterranean,Mediterranean Bowl 550,mediterranean,74.55,93.48,28.9,10/16/2022,17:20:09
+mediterranean,Mediterranean Tacos 506,indian,86.17,87.43,78.73,10/16/2022,17:20:09
+mediterranean,Mediterranean Roast 80,italian,88.98,65.19,58.55,10/16/2022,17:20:09
+mediterranean,Mediterranean Curry 882,british,109.33,44.94,41.56,10/16/2022,17:20:09
+mediterranean,Mediterranean Soup 374,mexican,69.92,144.48,37.74,10/16/2022,17:20:09
+mediterranean,Mediterranean Casserole 794,mexican,0.1,78.44,42.17,10/16/2022,17:20:09
+mediterranean,Mediterranean Curry 525,mexican,50.21,72.9,40.57,10/16/2022,17:20:09
+mediterranean,Mediterranean Soup 356,indian,26.04,118.44,0.1,10/16/2022,17:20:09
+mediterranean,Mediterranean Curry 861,french,112.31,110.74,36.07,10/16/2022,17:20:09
+mediterranean,Mediterranean Stew 315,mediterranean,37.78,120.36,16.03,10/16/2022,17:20:09
+mediterranean,Mediterranean Soup 372,chinese,29.14,71.31,56.93,10/16/2022,17:20:09
+mediterranean,Mediterranean Bowl 163,french,76.62,56.68,65.51,10/16/2022,17:20:09
+mediterranean,Mediterranean Wrap 526,chinese,46.76,86.06,63.76,10/16/2022,17:20:09
+mediterranean,Mediterranean Wrap 921,mediterranean,88.18,119.04,127.21,10/16/2022,17:20:09
+mediterranean,Mediterranean Curry 937,japanese,81.12,39.64,38.9,10/16/2022,17:20:09
+mediterranean,Mediterranean Pie 698,italian,79.43,73.03,53.46,10/16/2022,17:20:09
+mediterranean,Mediterranean Fritters 850,american,55.15,53.2,78.38,10/16/2022,17:20:09
+mediterranean,Mediterranean Casserole 69,indian,11.81,67.47,54.14,10/16/2022,17:20:09
+mediterranean,Mediterranean Casserole 815,british,68.52,103.41,51.6,10/16/2022,17:20:09
+mediterranean,Mediterranean Stir Fry 101,south east asian,52.16,80.76,49.13,10/16/2022,17:20:09
+mediterranean,Mediterranean Bake 473,italian,61.69,68.75,43.83,10/16/2022,17:20:09
+mediterranean,Mediterranean Stir Fry 58,american,27.63,14.88,41.3,10/16/2022,17:20:09
+mediterranean,Mediterranean Casserole 110,chinese,83.46,21.27,44.19,10/16/2022,17:20:09
+mediterranean,Mediterranean Tacos 877,mediterranean,65.33,101.57,27.07,10/16/2022,17:20:09
+mediterranean,Mediterranean Tacos 900,japanese,84.77,47.77,41.37,10/16/2022,17:20:09
+mediterranean,Mediterranean Skillet 322,chinese,41.36,59.02,24.51,10/16/2022,17:20:09
+mediterranean,Mediterranean Bowl 47,american,0.1,88.62,,10/16/2022,17:20:09
+mediterranean,Mediterranean Bowl 678,mediterranean,21.54,81.2,42.92,10/16/2022,17:20:09
+mediterranean,Mediterranean Hash 812,indian,52.35,18.55,13.07,10/16/2022,17:20:09
+mediterranean,Mediterranean Bake 781,italian,59.75,55.67,65.63,10/16/2022,17:20:09
+mediterranean,Mediterranean Fritters 257,chinese,51.66,89.03,58.12,10/16/2022,17:20:09
+mediterranean,Mediterranean Stir Fry 750,american,39.93,77.06,60.65,10/16/2022,17:20:09
+mediterranean,Mediterranean Hash 793,japanese,13.52,59.57,23.16,10/16/2022,17:20:09
+mediterranean,Mediterranean Wrap 409,french,36.13,38.12,64.59,10/16/2022,17:20:09
+mediterranean,Mediterranean Curry 173,japanese,52.19,5.67,37.64,10/16/2022,17:20:09
+mediterranean,Mediterranean Stew 837,japanese,84.75,51.48,76.3,10/16/2022,17:20:09
+mediterranean,Mediterranean Curry 617,chinese,81.29,146.84,62.34,10/16/2022,17:20:09
+mediterranean,Mediterranean Wrap 609,french,13.63,78.39,0.1,10/16/2022,17:20:09
+mediterranean,Mediterranean Stew 340,french,49.26,35.77,51.64,10/16/2022,17:20:09
+mediterranean,Mediterranean Pie 1,mediterranean,88.33,85.46,80.71,10/16/2022,17:20:09
+mediterranean,Mediterranean Bake 429,british,91.93,40.86,120.36,10/16/2022,17:20:09
+mediterranean,Mediterranean Bake 706,mexican,71.42,101.0,96.93,10/16/2022,17:20:09
+mediterranean,Mediterranean Fritters 915,mediterranean,102.1,66.36,52.68,10/16/2022,17:20:09
+mediterranean,Mediterranean Wrap 520,mediterranean,75.79,53.95,52.5,10/16/2022,17:20:09
+mediterranean,Mediterranean Tacos 990,chinese,119.47,81.86,51.6,10/16/2022,17:20:09
+mediterranean,Mediterranean Fritters 484,chinese,93.18,66.84,39.47,10/16/2022,17:20:09
+mediterranean,Mediterranean Bowl 627,south east asian,58.87,16.75,67.6,10/16/2022,17:20:09
+mediterranean,Mediterranean Casserole 155,italian,81.64,138.47,28.85,10/16/2022,17:20:09
+mediterranean,Mediterranean Soup 446,italian,53.17,110.89,52.55,10/16/2022,17:20:09
+mediterranean,Mediterranean Fritters 996,mexican,20.55,24.75,62.29,10/16/2022,17:20:09
+mediterranean,Mediterranean Stew 281,french,3.12,136.84,73.41,10/16/2022,17:20:09
+mediterranean,Mediterranean Fritters 498,indian,50.9,123.82,63.76,10/16/2022,17:20:09
+mediterranean,Mediterranean Tacos 603,indian,0.1,71.09,78.45,10/16/2022,17:20:09
+mediterranean,Mediterranean Soup 811,south east asian,45.03,115.57,74.37,10/16/2022,17:20:09
+mediterranean,Mediterranean Casserole 180,south east asian,92.44,109.32,56.64,10/16/2022,17:20:09
+mediterranean,Mediterranean Soup 322,indian,52.88,31.51,26.12,10/16/2022,17:20:09
+mediterranean,Mediterranean Pie 155,american,103.22,78.33,75.09,10/16/2022,17:20:09
+mediterranean,Mediterranean Curry 722,french,53.06,103.79,43.91,10/16/2022,17:20:09
+mediterranean,Mediterranean Tacos 745,south east asian,24.29,86.46,91.2,10/16/2022,17:20:09
+mediterranean,Mediterranean Roast 805,chinese,73.43,101.84,24.08,10/16/2022,17:20:09
+mediterranean,Mediterranean Stew 239,chinese,41.23,123.03,58.92,10/16/2022,17:20:09
+mediterranean,Mediterranean Fritters 220,chinese,73.39,77.6,50.31,10/16/2022,17:20:09
+mediterranean,Mediterranean Fritters 612,mexican,61.21,67.51,10.36,10/16/2022,17:20:09
+mediterranean,Mediterranean Wrap 614,american,107.05,95.39,16.91,10/16/2022,17:20:09
+mediterranean,Mediterranean Tacos 352,mexican,106.84,72.53,82.67,10/16/2022,17:20:09
+mediterranean,Mediterranean Roast 277,south east asian,74.14,26.57,73.44,10/16/2022,17:20:09
+mediterranean,Mediterranean Skillet 775,british,35.57,87.08,58.8,10/16/2022,17:20:09
+mediterranean,Mediterranean Roast 107,south east asian,72.14,69.34,33.77,10/16/2022,17:20:09
+mediterranean,Mediterranean Fritters 305,american,37.17,102.74,31.43,10/16/2022,17:20:09
+mediterranean,Mediterranean Wrap 534,mediterranean,91.01,11.84,73.17,10/16/2022,17:20:09
+mediterranean,Mediterranean Soup 438,american,72.29,103.25,29.34,10/16/2022,17:20:09
+mediterranean,Mediterranean Soup 247,chinese,63.4,29.76,45.75,10/16/2022,17:20:09
+mediterranean,Mediterranean Casserole 540,italian,81.52,32.39,62.27,10/16/2022,17:20:09
+mediterranean,Mediterranean Tacos 417,mediterranean,81.77,111.4,59.08,10/16/2022,17:20:09
+mediterranean,Mediterranean Tacos 477,british,41.75,4.08,58.49,10/16/2022,17:20:09
+mediterranean,Mediterranean Pie 211,french,76.73,26.5,66.13,10/16/2022,17:20:09
+mediterranean,Mediterranean Stew 844,mediterranean,58.15,92.36,100.81,10/16/2022,17:20:09
+mediterranean,Mediterranean Hash 877,french,66.1,48.01,36.32,10/16/2022,17:20:09
+mediterranean,Mediterranean Soup 62,south east asian,114.03,97.93,40.59,10/16/2022,17:20:09
+mediterranean,Mediterranean Stew 185,south east asian,47.17,57.15,5.63,10/16/2022,17:20:09
+mediterranean,Mediterranean Stew 350,french,132.53,24.42,86.45,10/16/2022,17:20:09
+mediterranean,Mediterranean Hash 542,italian,84.18,14.09,86.7,10/16/2022,17:20:09
+mediterranean,Mediterranean Hash 483,american,79.35,49.38,35.51,10/16/2022,17:20:09
+mediterranean,Mediterranean Curry 61,american,4.42,114.47,79.79,10/16/2022,17:20:09
+mediterranean,Mediterranean Salad 881,south east asian,52.03,93.13,,10/16/2022,17:20:09
+mediterranean,Mediterranean Curry 753,british,91.56,77.45,100.55,10/16/2022,17:20:09
+mediterranean,Mediterranean Casserole 809,japanese,96.81,105.23,68.17,10/16/2022,17:20:09
+mediterranean,Mediterranean Stir Fry 850,mexican,40.42,74.91,45.71,10/16/2022,17:20:09
+mediterranean,Mediterranean Skillet 607,italian,100.09,89.49,16.35,10/16/2022,17:20:09
+mediterranean,Mediterranean Roast 906,chinese,109.94,76.39,33.81,10/16/2022,17:20:09
+mediterranean,Mediterranean Curry 220,italian,102.69,64.28,84.19,10/16/2022,17:20:09
+mediterranean,Mediterranean Bake 211,chinese,102.89,90.27,71.33,10/16/2022,17:20:09
+mediterranean,Mediterranean Salad 112,south east asian,70.44,70.69,97.89,10/16/2022,17:20:09
+mediterranean,Mediterranean Curry 200,british,60.13,80.6,60.06,10/16/2022,17:20:09
+mediterranean,Mediterranean Stew 630,chinese,54.93,16.72,50.24,10/16/2022,17:20:09
+mediterranean,Mediterranean Bowl 926,italian,7.97,85.47,62.2,10/16/2022,17:20:09
+dash,Dash Soup 249,british,1.85,30.35,69.54,10/16/2022,17:20:09
+dash,Dash Bowl 222,mediterranean,36.11,98.78,23.92,10/16/2022,17:20:09
+dash,Dash Skillet 680,mediterranean,58.76,73.71,16.62,10/16/2022,17:20:09
+dash,Dash Casserole 618,american,66.76,219.76,58.63,10/16/2022,17:20:09
+dash,Dash Wrap 835,italian,52.65,2.91,11.86,10/16/2022,17:20:09
+dash,Dash Tacos 195,japanese,35.77,87.13,16.41,10/16/2022,17:20:09
+dash,Dash Bowl 222,mediterranean,53.61,52.65,22.03,10/16/2022,17:20:09
+dash,Dash Soup 119,mediterranean,48.62,86.52,45.45,10/16/2022,17:20:09
+dash,Dash Bowl 273,mexican,47.35,117.35,46.69,10/16/2022,17:20:09
+dash,Dash Bowl 273,american,33.5,54.12,48.46,10/16/2022,17:20:09
+dash,Dash Bake 934,italian,67.52,108.34,35.81,10/16/2022,17:20:09
+dash,Dash Hash 222,american,80.06,90.21,59.27,10/16/2022,17:20:09
+dash,Dash Stew 280,mexican,72.39,108.4,39.32,10/16/2022,17:20:09
+dash,Dash Stir Fry 107,indian,133.25,77.2,36.24,10/16/2022,17:20:09
+dash,Dash Soup 271,mexican,41.58,168.36,23.22,10/16/2022,17:20:09
+dash,Dash Soup 423,mediterranean,34.17,13.85,46.06,10/16/2022,17:20:09
+dash,Dash Stew 439,south east asian,44.92,15.83,50.75,10/16/2022,17:20:09
+dash,Dash Stir Fry 357,mediterranean,47.24,64.99,31.89,10/16/2022,17:20:09
+dash,Dash Pie 731,mediterranean,48.75,71.41,31.52,10/16/2022,17:20:09
+dash,Dash Stir Fry 506,italian,5.87,73.9,48.29,10/16/2022,17:20:09
+dash,Dash Roast 220,french,71.23,91.91,55.47,10/16/2022,17:20:09
+dash,Dash Casserole 16,chinese,80.51,130.65,27.31,10/16/2022,17:20:09
+dash,Dash Roast 948,indian,66.56,120.94,54.08,10/16/2022,17:20:09
+dash,Dash Soup 668,chinese,67.65,91.62,2.0,10/16/2022,17:20:09
+dash,Dash Casserole 120,indian,4.06,50.1,58.65,10/16/2022,17:20:09
+dash,Dash Fritters 144,american,45.94,97.02,66.17,10/16/2022,17:20:09
+dash,Dash Wrap 712,british,41.89,168.56,28.44,10/16/2022,17:20:09
+dash,Dash Skillet 829,japanese,50.29,16.17,16.53,10/16/2022,17:20:09
+dash,Dash Wrap 515,south east asian,53.63,79.84,21.9,10/16/2022,17:20:09
+dash,Dash Wrap 39,chinese,82.03,0.1,,10/16/2022,17:20:09
+dash,Dash Hash 809,south east asian,52.28,114.16,,10/16/2022,17:20:09
+dash,Dash Stir Fry 458,british,48.25,149.57,22.19,10/16/2022,17:20:09
+dash,Dash Bowl 474,british,,,29.74,10/16/2022,17:20:09
+dash,Dash Casserole 404,indian,53.25,84.99,29.24,10/16/2022,17:20:09
+dash,Dash Wrap 218,british,78.49,105.97,39.12,10/16/2022,17:20:09
+dash,Dash Tacos 315,indian,113.94,86.55,21.44,10/16/2022,17:20:09
+dash,Dash Stew 909,mediterranean,62.75,122.46,32.58,10/16/2022,17:20:09
+dash,Dash Wrap 606,chinese,16.97,90.82,40.18,10/16/2022,17:20:09
+dash,Dash Skillet 497,south east asian,57.36,0.1,33.36,10/16/2022,17:20:09
+dash,Dash Stew 324,mediterranean,32.7,123.08,22.01,10/16/2022,17:20:09
+dash,Dash Hash 91,british,45.42,99.35,2.24,10/16/2022,17:20:09
+dash,Dash Tacos 631,japanese,43.78,113.75,13.74,10/16/2022,17:20:09
+dash,Dash Roast 988,mexican,22.45,173.03,4.97,10/16/2022,17:20:09
+dash,Dash Fritters 528,mexican,100.77,109.96,44.85,10/16/2022,17:20:09
+dash,Dash Pie 91,chinese,26.77,71.72,13.79,10/16/2022,17:20:09
+dash,Dash Wrap 628,japanese,43.9,41.65,40.59,10/16/2022,17:20:09
+dash,Dash Curry 77,mediterranean,63.15,71.79,59.62,10/16/2022,17:20:09
+dash,Dash Roast 966,mediterranean,34.22,97.67,17.83,10/16/2022,17:20:09
+dash,Dash Roast 234,american,47.79,60.52,13.73,10/16/2022,17:20:09
+dash,Dash Pie 64,japanese,25.95,124.81,7.03,10/16/2022,17:20:09
+dash,Dash Stir Fry 81,british,104.25,64.77,40.62,10/16/2022,17:20:09
+dash,Dash Soup 846,chinese,13.14,84.02,6.68,10/16/2022,17:20:09
+dash,Dash Soup 357,japanese,11.14,45.23,16.79,10/16/2022,17:20:09
+dash,Dash Casserole 66,chinese,,72.4,11.89,10/16/2022,17:20:09
+dash,Dash Soup 264,japanese,48.29,79.97,23.6,10/16/2022,17:20:09
+dash,Dash Salad 253,indian,63.88,79.98,15.72,10/16/2022,17:20:09
+dash,Dash Soup 720,british,55.34,137.2,48.83,10/16/2022,17:20:09
+dash,Dash Roast 732,south east asian,34.22,44.83,48.22,10/16/2022,17:20:09
+dash,Dash Bake 480,mediterranean,85.23,113.83,38.65,10/16/2022,17:20:09
+dash,Dash Tacos 211,indian,56.87,165.32,37.02,10/16/2022,17:20:09
+dash,Dash Wrap 379,american,31.96,128.39,56.65,10/16/2022,17:20:09
+dash,Dash Casserole 671,japanese,0.82,92.37,34.3,10/16/2022,17:20:09
+dash,Dash Pie 265,french,120.56,91.86,27.86,10/16/2022,17:20:09
+dash,Dash Pie 179,indian,0.1,58.91,52.21,10/16/2022,17:20:09
+dash,Dash Salad 293,french,32.21,157.2,58.45,10/16/2022,17:20:09
+dash,Dash Fritters 739,south east asian,48.41,56.8,17.59,10/16/2022,17:20:09
+dash,Dash Salad 788,mediterranean,38.0,45.85,7.64,10/16/2022,17:20:09
+dash,Dash Soup 768,french,101.77,63.25,40.18,10/16/2022,17:20:09
+dash,Dash Stew 30,british,48.02,130.36,48.57,10/16/2022,17:20:09
+dash,Dash Skillet 931,chinese,45.17,30.03,20.9,10/16/2022,17:20:09
+dash,Dash Stew 310,chinese,24.09,115.9,55.94,10/16/2022,17:20:09
+dash,Dash Curry 153,american,26.56,80.52,22.92,10/16/2022,17:20:09
+dash,Dash Curry 835,chinese,36.33,143.05,30.7,10/16/2022,17:20:09
+dash,Dash Salad 149,mediterranean,61.96,137.52,39.78,10/16/2022,17:20:09
+dash,Dash Curry 658,chinese,94.32,80.39,29.43,10/16/2022,17:20:09
+dash,Dash Curry 961,south east asian,87.07,112.18,39.49,10/16/2022,17:20:09
+dash,Dash Soup 321,mediterranean,102.38,103.12,33.02,10/16/2022,17:20:09
+dash,Dash Casserole 318,italian,,95.25,38.42,10/16/2022,17:20:09
+dash,Dash Wrap 483,south east asian,17.69,21.73,19.47,10/16/2022,17:20:09
+dash,Dash Fritters 422,japanese,72.45,86.98,38.44,10/16/2022,17:20:09
+dash,Dash Curry 797,indian,42.3,122.89,45.41,10/16/2022,17:20:09
+dash,Dash Tacos 142,indian,115.47,94.16,22.87,10/16/2022,17:20:09
+dash,Dash Stew 855,south east asian,57.53,87.82,34.45,10/16/2022,17:20:09
+dash,Dash Stir Fry 795,american,50.89,87.15,25.09,10/16/2022,17:20:09
+dash,Dash Bowl 32,american,56.68,137.25,33.26,10/16/2022,17:20:09
+dash,Dash Stir Fry 471,chinese,70.73,112.85,50.15,10/16/2022,17:20:09
+dash,Dash Bowl 71,mediterranean,71.19,90.33,39.29,10/16/2022,17:20:09
+dash,Dash Skillet 526,british,37.72,103.62,42.27,10/16/2022,17:20:09
+dash,Dash Stir Fry 20,japanese,52.94,90.54,0.1,10/16/2022,17:20:09
+dash,Dash Skillet 200,south east asian,50.59,162.26,13.72,10/16/2022,17:20:09
+dash,Dash Stew 555,french,0.1,72.16,28.08,10/16/2022,17:20:09
+dash,Dash Bake 184,south east asian,78.67,98.7,28.51,10/16/2022,17:20:09
+dash,Dash Wrap 917,japanese,54.46,56.13,4.97,10/16/2022,17:20:09
+dash,Dash Casserole 946,chinese,117.6,97.93,21.61,10/16/2022,17:20:09
+dash,Dash Bake 835,japanese,70.18,11.18,44.63,10/16/2022,17:20:09
+dash,Dash Soup 672,mexican,48.96,121.83,37.99,10/16/2022,17:20:09
+dash,Dash Casserole 106,american,105.89,78.3,,10/16/2022,17:20:09
+dash,Dash Bake 680,american,95.39,96.42,44.78,10/16/2022,17:20:09
+dash,Dash Roast 356,american,37.32,120.99,20.85,10/16/2022,17:20:09
+dash,Dash Skillet 83,mediterranean,81.8,61.45,22.16,10/16/2022,17:20:09
+dash,Dash Wrap 182,french,75.15,47.5,41.24,10/16/2022,17:20:09
+dash,Dash Bowl 566,british,82.78,80.55,31.26,10/16/2022,17:20:09
+dash,Dash Skillet 256,south east asian,82.97,58.59,41.12,10/16/2022,17:20:09
+dash,Dash Fritters 706,american,38.25,160.69,38.53,10/16/2022,17:20:09
+dash,Dash Bake 654,mediterranean,63.4,88.06,95.45,10/16/2022,17:20:09
+dash,Dash Hash 528,south east asian,94.05,7.55,36.65,10/16/2022,17:20:09
+dash,Dash Fritters 196,mediterranean,51.8,12.67,28.07,10/16/2022,17:20:09
+dash,Dash Casserole 458,indian,31.93,62.45,25.21,10/16/2022,17:20:09
+dash,Dash Curry 465,indian,91.8,144.99,42.98,10/16/2022,17:20:09
+dash,Dash Fritters 434,italian,69.66,31.09,31.05,10/16/2022,17:20:09
+dash,Dash Soup 423,chinese,23.72,46.35,33.35,10/16/2022,17:20:09
+dash,Dash Casserole 701,british,71.69,98.5,21.94,10/16/2022,17:20:09
+dash,Dash Fritters 856,british,40.95,114.47,40.89,10/16/2022,17:20:09
+dash,Dash Soup 129,mediterranean,88.12,98.76,10.2,10/16/2022,17:20:09
+dash,Dash Tacos 908,japanese,54.2,113.26,41.99,10/16/2022,17:20:09
+dash,Dash Roast 259,american,113.35,142.65,49.38,10/16/2022,17:20:09
+dash,Dash Skillet 403,italian,27.41,155.68,20.25,10/16/2022,17:20:09
+dash,Dash Skillet 819,chinese,0.1,110.12,20.84,10/16/2022,17:20:09
+dash,Dash Stir Fry 13,italian,69.87,195.7,59.32,10/16/2022,17:20:09
+dash,Dash Stew 15,mediterranean,79.41,148.3,28.99,10/16/2022,17:20:09
+dash,Dash Hash 819,italian,63.27,121.31,32.67,10/16/2022,17:20:09
+dash,Dash Bowl 21,british,92.95,152.45,43.35,10/16/2022,17:20:09
+dash,Dash Bowl 618,mediterranean,44.37,172.09,44.49,10/16/2022,17:20:09
+dash,Dash Bowl 18,south east asian,36.04,114.89,41.95,10/16/2022,17:20:09
+dash,Dash Bake 938,french,36.62,137.98,55.34,10/16/2022,17:20:09
+dash,Dash Stew 259,american,93.71,153.39,45.49,10/16/2022,17:20:09
+dash,Dash Tacos 128,american,61.22,91.26,46.21,10/16/2022,17:20:09
+dash,Dash Stew 343,japanese,24.17,54.7,16.65,10/16/2022,17:20:09
+dash,Dash Skillet 831,indian,61.11,93.72,38.77,10/16/2022,17:20:09
+dash,Dash Salad 492,british,95.31,82.28,27.42,10/16/2022,17:20:09
+dash,Dash Stir Fry 486,mediterranean,4.5,57.45,52.17,10/16/2022,17:20:09
+dash,Dash Hash 891,japanese,96.56,77.45,40.11,10/16/2022,17:20:09
+dash,Dash Skillet 147,south east asian,42.16,136.22,23.25,10/16/2022,17:20:09
+dash,Dash Skillet 84,mexican,64.42,150.0,31.78,10/16/2022,17:20:09
+dash,Dash Stir Fry 195,south east asian,25.23,113.74,67.27,10/16/2022,17:20:09
+dash,Dash Tacos 299,italian,76.07,83.62,28.38,10/16/2022,17:20:09
+dash,Dash Wrap 303,indian,93.73,0.1,48.96,10/16/2022,17:20:09
+dash,Dash Salad 122,south east asian,101.54,61.08,23.1,10/16/2022,17:20:09
+dash,Dash Curry 439,mediterranean,66.38,,7.46,10/16/2022,17:20:09
+dash,Dash Salad 680,south east asian,57.06,116.43,30.43,10/16/2022,17:20:09
+dash,Dash Hash 468,japanese,101.13,86.06,27.24,10/16/2022,17:20:09
+dash,Dash Curry 755,mexican,38.64,95.49,35.0,10/16/2022,17:20:09
+dash,Dash Roast 151,mediterranean,112.52,110.97,0.1,10/16/2022,17:20:09
+dash,Dash Roast 677,indian,56.19,106.68,34.5,10/16/2022,17:20:09
+dash,Dash Roast 228,french,71.86,69.25,18.42,10/16/2022,17:20:09
+dash,Dash Curry 143,italian,57.75,23.96,37.04,10/16/2022,17:20:09
+dash,Dash Casserole 830,mexican,42.83,144.64,43.26,10/16/2022,17:20:09
+dash,Dash Pie 384,italian,105.51,38.39,61.75,10/16/2022,17:20:09
+dash,Dash Soup 315,mexican,70.88,54.39,37.65,10/16/2022,17:20:09
+dash,Dash Tacos 684,french,48.13,0.1,54.63,10/16/2022,17:20:09
+dash,Dash Stew 841,indian,41.67,68.38,41.27,10/16/2022,17:20:09
+dash,Dash Fritters 236,french,66.2,119.66,31.51,10/16/2022,17:20:09
+dash,Dash Stir Fry 823,south east asian,57.45,25.43,17.02,10/16/2022,17:20:09
+dash,Dash Skillet 665,mexican,45.03,73.73,69.21,10/16/2022,17:20:09
+dash,Dash Fritters 990,british,64.32,77.44,24.56,10/16/2022,17:20:09
+dash,Dash Roast 76,american,67.33,86.49,32.6,10/16/2022,17:20:09
+dash,Dash Tacos 238,mediterranean,12.25,66.98,15.11,10/16/2022,17:20:09
+dash,Dash Casserole 867,south east asian,0.1,23.1,32.68,10/16/2022,17:20:09
+dash,Dash Soup 775,mexican,18.58,187.38,40.47,10/16/2022,17:20:09
+dash,Dash Stew 866,british,74.86,76.93,30.04,10/16/2022,17:20:09
+dash,Dash Bowl 357,japanese,10.2,170.86,38.19,10/16/2022,17:20:09
+dash,Dash Wrap 446,american,29.61,39.81,39.38,10/16/2022,17:20:09
+dash,Dash Bowl 131,chinese,42.23,46.83,12.83,10/16/2022,17:20:09
+dash,Dash Pie 124,french,36.15,168.49,33.56,10/16/2022,17:20:09
+dash,Dash Fritters 122,indian,40.34,106.63,34.03,10/16/2022,17:20:09
+dash,Dash Stew 616,south east asian,51.28,,21.84,10/16/2022,17:20:09
+dash,Dash Fritters 772,japanese,31.16,153.71,40.45,10/16/2022,17:20:09
+dash,Dash Casserole 965,mediterranean,86.8,131.35,10.12,10/16/2022,17:20:09
+dash,Dash Bake 317,mediterranean,27.39,129.56,37.99,10/16/2022,17:20:09
+dash,Dash Bake 21,mediterranean,13.91,92.48,6.03,10/16/2022,17:20:09
+dash,Dash Salad 30,chinese,65.39,185.63,49.84,10/16/2022,17:20:09
+dash,Dash Fritters 704,japanese,16.56,49.28,40.83,10/16/2022,17:20:09
+dash,Dash Roast 71,chinese,53.98,46.54,36.77,10/16/2022,17:20:09
+dash,Dash Stir Fry 154,south east asian,55.53,161.52,35.12,10/16/2022,17:20:09
+dash,Dash Pie 703,mediterranean,48.21,31.15,42.11,10/16/2022,17:20:09
+dash,Dash Fritters 99,mexican,37.9,82.28,24.92,10/16/2022,17:20:09
+dash,Dash Bake 553,japanese,65.5,92.46,54.01,10/16/2022,17:20:09
+dash,Dash Curry 703,french,69.81,94.43,29.49,10/16/2022,17:20:09
+dash,Dash Tacos 79,british,32.53,109.15,21.87,10/16/2022,17:20:09
+dash,Dash Wrap 945,british,36.35,119.35,39.51,10/16/2022,17:20:09
+dash,Dash Stew 505,chinese,75.85,113.49,38.77,10/16/2022,17:20:09
+dash,Dash Tacos 870,chinese,61.31,97.81,23.78,10/16/2022,17:20:09
+dash,Dash Stew 977,british,26.11,115.31,29.4,10/16/2022,17:20:09
+dash,Dash Skillet 454,mediterranean,34.78,48.93,40.66,10/16/2022,17:20:09
+dash,Dash Pie 699,south east asian,41.84,0.1,39.21,10/16/2022,17:20:09
+dash,Dash Soup 106,japanese,84.85,32.89,48.95,10/16/2022,17:20:09
+dash,Dash Stir Fry 467,british,99.04,130.6,17.36,10/16/2022,17:20:09
+dash,Dash Soup 556,chinese,47.78,86.96,57.26,10/16/2022,17:20:09
+dash,Dash Hash 638,japanese,57.51,140.34,49.16,10/16/2022,17:20:09
