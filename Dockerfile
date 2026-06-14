@@ -9,7 +9,9 @@ RUN pip install --no-cache-dir --prefix=/install \
 
 FROM python:3.11-slim
 WORKDIR /app
-RUN useradd --create-home appuser
+RUN useradd --create-home appuser && \
+    mkdir -p /app/output && \
+    chown -R appuser:appuser /app
 COPY --from=builder /install /usr/local
 COPY data_analysis.py ./
 COPY All_Diets.csv ./
