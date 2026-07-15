@@ -64,3 +64,36 @@ def process_http(req: func.HttpRequest) -> func.HttpResponse:
     except Exception as e:
         logging.exception("process_http failed")
         return func.HttpResponse(f"Error: {e}", status_code=500)
+
+
+@app.route(route="get_insights", auth_level=func.AuthLevel.ANONYMOUS)
+def get_insights(req: func.HttpRequest) -> func.HttpResponse:
+    """Returns all diet nutrition data from Cosmos DB for the dashboard."""
+    try:
+        from azure.cosmos import CosmosClient
+
+        # Read Cosmos DB connection info from environment variables
+        cosmos_conn = os.environ["COSMOS_CONNECTION_STRING"]
+        db_name     = os.environ.get("COSMOS_DATABASE",  "diet_analytics")
+        cont_name   = os.environ.get("COSMOS_CONTAINER", "nutrition_results")
+
+        # Connect to Cosmos DB and fetch all diet documents
+        client    = CosmosClient.from_connection_string(cosmos_conn)
+        database  = client.get_database_client(db_name)
+        container = database.get_container_client(cont_name)
+
+        # Get all 5 diet documents
+        items = list(container.read_all_items())
+
+        # Return as JSON with CORS header so dashboard can access it
+        headers = {"Access-Control-Allow-Origin": "*"}
+        return func.HttpResponse(
+            json.dumps(items, indent=2),
+            mimetype="application/json",
+            status_code=200,
+            headers=headers
+        )
+
+    except Exception as e:
+        logging.exception("get_insights failed")
+        return func.HttpResponse(f"Error: {e}", status_code=500)
