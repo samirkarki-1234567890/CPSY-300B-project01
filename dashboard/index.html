@@ -1,0 +1,682 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nutritional Insights Dashboard</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --bg:        #F8F9FA;
+      --surface:   #FFFFFF;
+      --border:    #E5E7EB;
+      --border-strong: #D1D5DB;
+      --accent:    #0F172A;
+      --text:      #111827;
+      --muted:     #6B7280;
+      --success:   #10B981;
+      --warning:   #F59E0B;
+      --error:     #EF4444;
+      --blue:      #3B82F6;
+      --purple:    #8B5CF6;
+    }
+
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+      min-height: 100vh;
+      font-size: 14px;
+    }
+
+    /* ── Header ── */
+    header {
+      background: var(--accent);
+      padding: 0 40px;
+      height: 60px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .header-brand {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+
+    .brand-mark {
+      width: 32px;
+      height: 32px;
+      background: #FFFFFF10;
+      border: 1px solid #FFFFFF20;
+      border-radius: 8px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 16px;
+    }
+
+    .brand-text h1 {
+      font-size: 15px;
+      font-weight: 600;
+      color: #F9FAFB;
+      letter-spacing: -0.2px;
+    }
+
+    .brand-text p {
+      font-size: 11px;
+      color: #9CA3AF;
+      margin-top: 1px;
+    }
+
+    .live-badge {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      background: #10B98120;
+      border: 1px solid #10B98140;
+      border-radius: 20px;
+      padding: 5px 12px;
+      font-size: 11px;
+      color: #10B981;
+      font-weight: 500;
+    }
+
+    .live-dot {
+      width: 6px;
+      height: 6px;
+      border-radius: 50%;
+      background: #10B981;
+      animation: blink 2s infinite;
+    }
+
+    @keyframes blink { 0%,100%{opacity:1} 50%{opacity:0.3} }
+
+    /* ── Layout ── */
+    .page-wrap {
+      max-width: 1160px;
+      margin: 0 auto;
+      padding: 32px 24px;
+    }
+
+    /* ── Section label ── */
+    .section-label {
+      font-size: 11px;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      color: var(--muted);
+      margin-bottom: 12px;
+    }
+
+    /* ── Summary strip ── */
+    .summary-strip {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 1px;
+      background: var(--border);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      overflow: hidden;
+      margin-bottom: 32px;
+    }
+
+    .stat-tile {
+      background: var(--surface);
+      padding: 20px 24px;
+    }
+
+    .stat-tile .label {
+      font-size: 11px;
+      color: var(--muted);
+      font-weight: 500;
+      text-transform: uppercase;
+      letter-spacing: 0.6px;
+      margin-bottom: 6px;
+    }
+
+    .stat-tile .num {
+      font-size: 26px;
+      font-weight: 700;
+      color: var(--text);
+      line-height: 1;
+      letter-spacing: -0.5px;
+    }
+
+    .stat-tile .sub {
+      font-size: 12px;
+      color: var(--muted);
+      margin-top: 4px;
+      text-transform: capitalize;
+    }
+
+    .stat-tile.highlight .num {
+      color: var(--accent);
+    }
+
+    /* ── Filter pills ── */
+    .filter-row {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      margin-bottom: 24px;
+      flex-wrap: wrap;
+    }
+
+    .filter-label {
+      font-size: 12px;
+      color: var(--muted);
+      font-weight: 500;
+    }
+
+    .pill {
+      background: var(--surface);
+      border: 1px solid var(--border-strong);
+      color: var(--muted);
+      border-radius: 20px;
+      padding: 5px 14px;
+      font-size: 12px;
+      font-weight: 500;
+      cursor: pointer;
+      transition: all 0.15s;
+      text-transform: capitalize;
+    }
+
+    .pill:hover { border-color: var(--accent); color: var(--accent); }
+
+    .pill.active {
+      background: var(--accent);
+      border-color: var(--accent);
+      color: #fff;
+    }
+
+    /* ── Chart grid ── */
+    .grid-2 {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 16px;
+      margin-bottom: 16px;
+    }
+
+    .grid-1 {
+      margin-bottom: 16px;
+    }
+
+    .card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 24px;
+    }
+
+    .card-header {
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      margin-bottom: 20px;
+    }
+
+    .card-title {
+      font-size: 13px;
+      font-weight: 600;
+      color: var(--text);
+    }
+
+    .card-sub {
+      font-size: 11px;
+      color: var(--muted);
+      margin-top: 2px;
+    }
+
+    .chart-wrap {
+      position: relative;
+      height: 240px;
+    }
+
+    .chart-wrap-tall {
+      position: relative;
+      height: 300px;
+    }
+
+    /* ── Table ── */
+    .table-wrap {
+      overflow-x: auto;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 13px;
+    }
+
+    thead th {
+      text-align: left;
+      padding: 8px 12px;
+      font-size: 11px;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.6px;
+      color: var(--muted);
+      border-bottom: 1px solid var(--border);
+      white-space: nowrap;
+    }
+
+    tbody tr { border-bottom: 1px solid var(--border); }
+    tbody tr:last-child { border-bottom: none; }
+    tbody tr:hover { background: #F9FAFB; }
+
+    tbody td {
+      padding: 11px 12px;
+      color: var(--text);
+      vertical-align: middle;
+    }
+
+    .diet-pill {
+      display: inline-block;
+      padding: 3px 10px;
+      border-radius: 12px;
+      font-size: 11px;
+      font-weight: 600;
+      text-transform: capitalize;
+    }
+
+    .bar-inline {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .mini-bar {
+      height: 5px;
+      border-radius: 3px;
+    }
+
+    .crown-tag {
+      display: inline-flex;
+      align-items: center;
+      gap: 4px;
+      background: #FEF3C7;
+      color: #92400E;
+      border-radius: 8px;
+      padding: 2px 7px;
+      font-size: 10px;
+      font-weight: 600;
+      margin-left: 6px;
+    }
+
+    /* ── Loading / Error ── */
+    #loading {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 300px;
+      gap: 12px;
+      color: var(--muted);
+    }
+
+    .spinner {
+      width: 28px;
+      height: 28px;
+      border: 2px solid var(--border-strong);
+      border-top-color: var(--accent);
+      border-radius: 50%;
+      animation: spin 0.7s linear infinite;
+    }
+
+    @keyframes spin { to { transform: rotate(360deg); } }
+
+    .error-banner {
+      background: #FEF2F2;
+      border: 1px solid #FECACA;
+      border-radius: 10px;
+      padding: 14px 18px;
+      color: var(--error);
+      font-size: 13px;
+      margin-bottom: 20px;
+      display: none;
+    }
+
+    /* ── Footer ── */
+    footer {
+      text-align: center;
+      padding: 20px;
+      font-size: 11px;
+      color: var(--muted);
+      border-top: 1px solid var(--border);
+      margin-top: 8px;
+    }
+
+    @media (max-width: 720px) {
+      .summary-strip { grid-template-columns: 1fr 1fr; }
+      .grid-2 { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="header-brand">
+    <div class="brand-mark">&#127793;</div>
+    <div class="brand-text">
+      <h1>Nutritional Insights</h1>
+      <p>CPSY-300B &middot; Project 2 &middot; Azure Cloud</p>
+    </div>
+  </div>
+  <div class="live-badge">
+    <div class="live-dot"></div>
+    Live from Cosmos DB
+  </div>
+</header>
+
+<div class="page-wrap">
+
+  <div id="error-banner" class="error-banner"></div>
+
+  <div id="loading">
+    <div class="spinner"></div>
+    <span>Loading data from Azure&hellip;</span>
+  </div>
+
+  <div id="dashboard" style="display:none;">
+
+    <!-- Summary strip -->
+    <div class="section-label">Overview</div>
+    <div class="summary-strip">
+      <div class="stat-tile">
+        <div class="label">Total Recipes</div>
+        <div class="num" id="s-recipes">—</div>
+        <div class="sub">across all diets</div>
+      </div>
+      <div class="stat-tile highlight">
+        <div class="label">Highest Protein</div>
+        <div class="num" id="s-protein" style="font-size:18px;">—</div>
+        <div class="sub">best for muscle building</div>
+      </div>
+      <div class="stat-tile highlight">
+        <div class="label">Lowest Carbs</div>
+        <div class="num" id="s-carbs" style="font-size:18px;">—</div>
+        <div class="sub">best for low-carb goals</div>
+      </div>
+      <div class="stat-tile">
+        <div class="label">Diet Types</div>
+        <div class="num" id="s-diets">—</div>
+        <div class="sub">tracked in dataset</div>
+      </div>
+    </div>
+
+    <!-- Filter -->
+    <div class="filter-row">
+      <span class="filter-label">Filter by diet:</span>
+      <button class="pill active" data-diet="all">All</button>
+    </div>
+
+    <!-- Row 1: protein + carbs -->
+    <div class="grid-2">
+      <div class="card">
+        <div class="card-header">
+          <div>
+            <div class="card-title">Average protein</div>
+            <div class="card-sub">Grams per recipe</div>
+          </div>
+        </div>
+        <div class="chart-wrap"><canvas id="cProtein"></canvas></div>
+      </div>
+      <div class="card">
+        <div class="card-header">
+          <div>
+            <div class="card-title">Average carbs</div>
+            <div class="card-sub">Grams per recipe</div>
+          </div>
+        </div>
+        <div class="chart-wrap"><canvas id="cCarbs"></canvas></div>
+      </div>
+    </div>
+
+    <!-- Row 2: fat + stacked -->
+    <div class="grid-2">
+      <div class="card">
+        <div class="card-header">
+          <div>
+            <div class="card-title">Average fat</div>
+            <div class="card-sub">Grams per recipe</div>
+          </div>
+        </div>
+        <div class="chart-wrap"><canvas id="cFat"></canvas></div>
+      </div>
+      <div class="card">
+        <div class="card-header">
+          <div>
+            <div class="card-title">Macronutrient distribution</div>
+            <div class="card-sub">Stacked comparison across diets</div>
+          </div>
+        </div>
+        <div class="chart-wrap"><canvas id="cStacked"></canvas></div>
+      </div>
+    </div>
+
+    <!-- Row 3: radar full width -->
+    <div class="grid-1">
+      <div class="card">
+        <div class="card-header">
+          <div>
+            <div class="card-title">Macronutrient profile &mdash; all diets</div>
+            <div class="card-sub">Radar comparison of protein, carbs and fat simultaneously</div>
+          </div>
+        </div>
+        <div class="chart-wrap-tall"><canvas id="cRadar"></canvas></div>
+      </div>
+    </div>
+
+    <!-- Table -->
+    <div class="card">
+      <div class="card-header">
+        <div>
+          <div class="card-title">Full breakdown</div>
+          <div class="card-sub">Per-diet macronutrient averages and recipe counts</div>
+        </div>
+      </div>
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th>Diet</th>
+              <th>Protein (g)</th>
+              <th>Carbs (g)</th>
+              <th>Fat (g)</th>
+              <th>Recipes</th>
+            </tr>
+          </thead>
+          <tbody id="tBody"></tbody>
+        </table>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<footer>CPSY-300B Cloud Computing &middot; Project 2 &middot; Data from Azure Blob Storage via Azure Functions &amp; Cosmos DB</footer>
+
+<script>
+const API = "https://diet-analysis-func-samir-ctcxc7egh4fsc3d2.canadacentral-01.azurewebsites.net/api/get_insights";
+
+const COLORS = {
+  dash:          { fill:"#3B82F6", light:"#EFF6FF", text:"#1D4ED8" },
+  keto:          { fill:"#10B981", light:"#ECFDF5", text:"#065F46" },
+  mediterranean: { fill:"#F59E0B", light:"#FFFBEB", text:"#92400E" },
+  paleo:         { fill:"#EF4444", light:"#FEF2F2", text:"#991B1B" },
+  vegan:         { fill:"#8B5CF6", light:"#F5F3FF", text:"#5B21B6" },
+};
+
+const CHART_OPTS = {
+  responsive: true,
+  maintainAspectRatio: false,
+  plugins: { legend: { display: false } },
+  scales: {
+    x: {
+      ticks: { color:"#6B7280", font:{size:11} },
+      grid:  { color:"#F3F4F6" },
+      border:{ color:"#E5E7EB" }
+    },
+    y: {
+      ticks: { color:"#6B7280", font:{size:11} },
+      grid:  { color:"#F3F4F6" },
+      border:{ color:"#E5E7EB" },
+      beginAtZero: true
+    }
+  }
+};
+
+let allData=[], filtered=[], charts={};
+
+async function load() {
+  try {
+    const r = await fetch(API);
+    if (!r.ok) throw new Error("HTTP "+r.status);
+    allData  = await r.json();
+    filtered = [...allData];
+    document.getElementById("loading").style.display = "none";
+    document.getElementById("dashboard").style.display = "block";
+    fillSummary();
+    buildFilters();
+    buildCharts();
+    buildTable();
+  } catch(e) {
+    document.getElementById("loading").style.display = "none";
+    const b = document.getElementById("error-banner");
+    b.style.display = "block";
+    b.textContent = "Could not load data: "+e.message;
+  }
+}
+
+function fillSummary() {
+  const total    = allData.reduce((s,d)=>s+d.recipe_count,0);
+  const hiProt   = allData.reduce((a,b)=>a.avg_protein_g>b.avg_protein_g?a:b);
+  const loCarbs  = allData.reduce((a,b)=>a.avg_carbs_g<b.avg_carbs_g?a:b);
+  document.getElementById("s-recipes").textContent = total.toLocaleString();
+  document.getElementById("s-protein").textContent = hiProt.diet_type;
+  document.getElementById("s-carbs").textContent   = loCarbs.diet_type;
+  document.getElementById("s-diets").textContent   = allData.length;
+}
+
+function buildFilters() {
+  const row = document.querySelector(".filter-row");
+  allData.forEach(d=>{
+    const btn = document.createElement("button");
+    btn.className    = "pill";
+    btn.dataset.diet = d.diet_type;
+    btn.textContent  = d.diet_type;
+    row.appendChild(btn);
+  });
+  row.addEventListener("click", e=>{
+    if (!e.target.classList.contains("pill")) return;
+    row.querySelectorAll(".pill").forEach(b=>b.classList.remove("active"));
+    e.target.classList.add("active");
+    filtered = e.target.dataset.diet==="all" ? [...allData] : allData.filter(d=>d.diet_type===e.target.dataset.diet);
+    refresh();
+  });
+}
+
+function labels()  { return filtered.map(d=>d.diet_type); }
+function fills()   { return filtered.map(d=>(COLORS[d.diet_type]||{fill:"#6B7280"}).fill); }
+function fillsA()  { return fills().map(c=>c+"33"); }
+
+function bar(id, key) {
+  return new Chart(document.getElementById(id), {
+    type:"bar",
+    data:{ labels:labels(), datasets:[{ data:filtered.map(d=>d[key]), backgroundColor:fillsA(), borderColor:fills(), borderWidth:1.5, borderRadius:6 }] },
+    options:{ ...CHART_OPTS }
+  });
+}
+
+function buildCharts() {
+  charts.p = bar("cProtein","avg_protein_g");
+  charts.c = bar("cCarbs","avg_carbs_g");
+  charts.f = bar("cFat","avg_fat_g");
+
+  charts.s = new Chart(document.getElementById("cStacked"),{
+    type:"bar",
+    data:{ labels:labels(), datasets:[
+      { label:"Protein", data:filtered.map(d=>d.avg_protein_g), backgroundColor:"#3B82F655", borderColor:"#3B82F6", borderWidth:1 },
+      { label:"Carbs",   data:filtered.map(d=>d.avg_carbs_g),   backgroundColor:"#F59E0B55", borderColor:"#F59E0B", borderWidth:1 },
+      { label:"Fat",     data:filtered.map(d=>d.avg_fat_g),     backgroundColor:"#10B98155", borderColor:"#10B981", borderWidth:1 },
+    ]},
+    options:{ responsive:true, maintainAspectRatio:false,
+      plugins:{ legend:{ labels:{ color:"#6B7280", font:{size:11} } } },
+      scales:{
+        x:{ stacked:true, ticks:{color:"#6B7280",font:{size:11}}, grid:{color:"#F3F4F6"}, border:{color:"#E5E7EB"} },
+        y:{ stacked:true, ticks:{color:"#6B7280",font:{size:11}}, grid:{color:"#F3F4F6"}, border:{color:"#E5E7EB"}, beginAtZero:true }
+      }
+    }
+  });
+
+  charts.r = new Chart(document.getElementById("cRadar"),{
+    type:"radar",
+    data:{
+      labels:["Protein (g)","Carbs (g)","Fat (g)"],
+      datasets: allData.map(d=>({
+        label: d.diet_type,
+        data:  [d.avg_protein_g, d.avg_carbs_g, d.avg_fat_g],
+        borderColor:     (COLORS[d.diet_type]||{fill:"#6B7280"}).fill,
+        backgroundColor: (COLORS[d.diet_type]||{fill:"#6B7280"}).fill+"22",
+        borderWidth:2, pointRadius:4,
+      }))
+    },
+    options:{
+      responsive:true, maintainAspectRatio:false,
+      plugins:{ legend:{ labels:{ color:"#374151", font:{size:11} } } },
+      scales:{ r:{
+        ticks:{ color:"#6B7280", backdropColor:"transparent", font:{size:10} },
+        grid:{ color:"#E5E7EB" },
+        pointLabels:{ color:"#374151", font:{size:12} }
+      }}
+    }
+  });
+}
+
+function refresh() {
+  const upd = (ch, key) => {
+    ch.data.labels = labels();
+    ch.data.datasets[0].data = filtered.map(d=>d[key]);
+    ch.data.datasets[0].backgroundColor = fillsA();
+    ch.data.datasets[0].borderColor = fills();
+    ch.update();
+  };
+  upd(charts.p,"avg_protein_g");
+  upd(charts.c,"avg_carbs_g");
+  upd(charts.f,"avg_fat_g");
+  charts.s.data.labels = labels();
+  charts.s.data.datasets[0].data = filtered.map(d=>d.avg_protein_g);
+  charts.s.data.datasets[1].data = filtered.map(d=>d.avg_carbs_g);
+  charts.s.data.datasets[2].data = filtered.map(d=>d.avg_fat_g);
+  charts.s.update();
+  buildTable();
+}
+
+function buildTable() {
+  const mp = Math.max(...filtered.map(d=>d.avg_protein_g));
+  const mc = Math.max(...filtered.map(d=>d.avg_carbs_g));
+  const mf = Math.max(...filtered.map(d=>d.avg_fat_g));
+  document.getElementById("tBody").innerHTML = filtered.map(d=>{
+    const col = COLORS[d.diet_type]||{fill:"#6B7280",light:"#F9FAFB",text:"#374151"};
+    const crown = d.is_highest_protein ? `<span class="crown-tag">&#127775; highest protein</span>` : "";
+    const pw = ((d.avg_protein_g/mp)*70).toFixed(0);
+    const cw = ((d.avg_carbs_g/mc)*70).toFixed(0);
+    const fw = ((d.avg_fat_g/mf)*70).toFixed(0);
+    return `<tr>
+      <td><span class="diet-pill" style="background:${col.light};color:${col.text};">${d.diet_type}</span>${crown}</td>
+      <td><div class="bar-inline"><div class="mini-bar" style="width:${pw}px;background:#3B82F6;"></div>${d.avg_protein_g}g</div></td>
+      <td><div class="bar-inline"><div class="mini-bar" style="width:${cw}px;background:#F59E0B;"></div>${d.avg_carbs_g}g</div></td>
+      <td><div class="bar-inline"><div class="mini-bar" style="width:${fw}px;background:#10B981;"></div>${d.avg_fat_g}g</div></td>
+      <td>${d.recipe_count.toLocaleString()}</td>
+    </tr>`;
+  }).join("");
+}
+
+load();
+</script>
+</body>
+</html>
