@@ -396,6 +396,48 @@
       color: #FCA5A5;
     }
 
+
+    .user-info {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+    .user-avatar {
+      width: 32px;
+      height: 32px;
+      background: #3B82F6;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 13px;
+      font-weight: 700;
+      color: #fff;
+      flex-shrink: 0;
+    }
+    .user-name {
+      font-size: 13px;
+      font-weight: 500;
+      color: #F9FAFB;
+    }
+    .logout-btn {
+      background: #ffffff15;
+      border: 1px solid #ffffff25;
+      color: #D1D5DB;
+      border-radius: 7px;
+      padding: 6px 12px;
+      font-size: 12px;
+      font-weight: 500;
+      cursor: pointer;
+      transition: all 0.15s;
+      font-family: inherit;
+    }
+    .logout-btn:hover {
+      background: #EF444420;
+      border-color: #EF444450;
+      color: #FCA5A5;
+    }
+
     @media (max-width: 720px) {
       .summary-strip { grid-template-columns: 1fr 1fr; }
       .grid-2 { grid-template-columns: 1fr; }
@@ -412,9 +454,14 @@
       <p>CPSY-300B &middot; Project 3 &middot; Azure Cloud</p>
     </div>
   </div>
-  <div class="live-badge">
-    <div class="live-dot"></div>
-    Live from Cosmos DB
+  <div class="user-info">
+    <div class="live-badge" style="margin-right:8px;">
+      <div class="live-dot"></div>
+      Live from Cosmos DB
+    </div>
+    <div class="user-avatar" id="user-avatar">A</div>
+    <span class="user-name" id="user-name">User</span>
+    <button class="logout-btn" onclick="logout()">Sign out</button>
   </div>
 </header>
 
