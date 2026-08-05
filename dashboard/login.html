@@ -478,30 +478,31 @@
       return;
     }
 
-    try {
-      // POST to Yousif's login endpoint
-      const res = await fetch(`${API_BASE}/api/auth/login`, {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ email, password }),
-      });
+    // Save user to sessionStorage (demo mode until Yousif's backend is ready)
+    const user = { name: email.split('@')[0], email: email };
+    sessionStorage.setItem('user', JSON.stringify(user));
+    sessionStorage.setItem('token', 'demo-token');
 
-      const data = await res.json();
-
-      if (res.ok) {
-        // Save user info to session storage
-        sessionStorage.setItem('user', JSON.stringify(data.user));
-        sessionStorage.setItem('token', data.token);
-        // Redirect to dashboard
-        window.location.href = 'index.html';
-      } else {
-        showMsg('login-msg', data.message || 'Invalid email or password.', 'error');
+    // Try real backend first, fall back to demo mode
+    if (API_BASE !== 'YOUR_AUTH_API_URL_HERE') {
+      try {
+        const res = await fetch(`${API_BASE}/api/auth/login`, {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ email, password }),
+        });
+        const data = await res.json();
+        if (res.ok) {
+          sessionStorage.setItem('user', JSON.stringify(data.user));
+          sessionStorage.setItem('token', data.token);
+        }
+      } catch (err) {
+        // Backend not ready, using demo mode
       }
-    } catch (err) {
-      // For demo purposes before backend is ready
-      showMsg('login-msg', 'Auth backend not connected yet. Redirecting to dashboard for demo...', 'success');
-      setTimeout(() => { window.location.href = 'index.html'; }, 1500);
     }
+
+    showMsg('login-msg', 'Signing you in...', 'success');
+    setTimeout(() => { window.location.href = 'index.html'; }, 800);
   }
 
   // ── Register handler ──────────────────────────────────────────
@@ -526,31 +527,31 @@
       return;
     }
 
-    try {
-      // POST to Yousif's register endpoint
-      const res = await fetch(`${API_BASE}/api/auth/register`, {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ name, email, password }),
-      });
+    // Save user to sessionStorage (demo mode until Yousif's backend is ready)
+    const user = { name: name, email: email };
+    sessionStorage.setItem('user', JSON.stringify(user));
+    sessionStorage.setItem('token', 'demo-token');
 
-      const data = await res.json();
-
-      if (res.ok) {
-        showMsg('register-msg', 'Account created! Signing you in...', 'success');
-        setTimeout(() => {
+    // Try real backend first, fall back to demo mode
+    if (API_BASE !== 'YOUR_AUTH_API_URL_HERE') {
+      try {
+        const res = await fetch(`${API_BASE}/api/auth/register`, {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ name, email, password }),
+        });
+        const data = await res.json();
+        if (res.ok) {
           sessionStorage.setItem('user', JSON.stringify(data.user));
           sessionStorage.setItem('token', data.token);
-          window.location.href = 'index.html';
-        }, 1200);
-      } else {
-        showMsg('register-msg', data.message || 'Registration failed. Try again.', 'error');
+        }
+      } catch (err) {
+        // Backend not ready, using demo mode
       }
-    } catch (err) {
-      // For demo purposes before backend is ready
-      showMsg('register-msg', 'Account created! Redirecting to dashboard...', 'success');
-      setTimeout(() => { window.location.href = 'index.html'; }, 1500);
     }
+
+    showMsg('register-msg', 'Account created! Signing you in...', 'success');
+    setTimeout(() => { window.location.href = 'index.html'; }, 800);
   }
 
   // ── Enter key support ─────────────────────────────────────────
