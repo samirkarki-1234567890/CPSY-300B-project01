@@ -350,6 +350,52 @@
       margin-top: 8px;
     }
 
+
+    .user-info {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+
+    .user-avatar {
+      width: 32px;
+      height: 32px;
+      background: #3B82F6;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 13px;
+      font-weight: 700;
+      color: #fff;
+      flex-shrink: 0;
+    }
+
+    .user-name {
+      font-size: 13px;
+      font-weight: 500;
+      color: #F9FAFB;
+    }
+
+    .logout-btn {
+      background: #ffffff15;
+      border: 1px solid #ffffff25;
+      color: #D1D5DB;
+      border-radius: 7px;
+      padding: 6px 12px;
+      font-size: 12px;
+      font-weight: 500;
+      cursor: pointer;
+      transition: all 0.15s;
+      font-family: inherit;
+    }
+
+    .logout-btn:hover {
+      background: #EF444420;
+      border-color: #EF444450;
+      color: #FCA5A5;
+    }
+
     @media (max-width: 720px) {
       .summary-strip { grid-template-columns: 1fr 1fr; }
       .grid-2 { grid-template-columns: 1fr; }
@@ -363,7 +409,7 @@
     <div class="brand-mark">&#127793;</div>
     <div class="brand-text">
       <h1>Nutritional Insights</h1>
-      <p>CPSY-300B &middot; Project 2 &middot; Azure Cloud</p>
+      <p>CPSY-300B &middot; Project 3 &middot; Azure Cloud</p>
     </div>
   </div>
   <div class="live-badge">
@@ -501,7 +547,28 @@
 <footer>CPSY-300B Cloud Computing &middot; Project 2 &middot; Data from Azure Blob Storage via Azure Functions &amp; Cosmos DB</footer>
 
 <script>
-const API = "https://diet-analysis-func-samir-ctcxc7egh4fsc3d2.canadacentral-01.azurewebsites.net/api/get_insights";
+// ── Auth check — redirect to login if not logged in ──────────
+(function() {
+  const user = sessionStorage.getItem('user');
+  if (!user) {
+    window.location.href = 'login.html';
+    return;
+  }
+  // Show user info in header
+  const userData = JSON.parse(user);
+  const name = userData.name || userData.email || 'User';
+  document.getElementById('user-name').textContent = name;
+  document.getElementById('user-avatar').textContent = name.charAt(0).toUpperCase();
+})();
+
+// ── Logout ────────────────────────────────────────────────────
+function logout() {
+  sessionStorage.removeItem('user');
+  sessionStorage.removeItem('token');
+  window.location.href = 'login.html';
+}
+
+const API = "https://diet-analysis-func-samir.azurewebsites.net/api/get_insights";
 
 const COLORS = {
   dash:          { fill:"#3B82F6", light:"#EFF6FF", text:"#1D4ED8" },
