@@ -436,6 +436,37 @@
 </footer>
 
 <script>
+  // ── OAuth Hash Reader ────────────────────────────────────────
+  // When Google/GitHub OAuth completes, it redirects back here with
+  // the token and user email in the URL hash like:
+  // #token=eyJhbGc...&user=test@example.com
+  // We read those values, save them to sessionStorage, then go to dashboard.
+  (function checkOAuthRedirect() {
+    const hash = window.location.hash;
+    if (!hash || !hash.includes('token=')) return;
+
+    // Parse the hash into key=value pairs
+    const params = {};
+    hash.substring(1).split('&').forEach(part => {
+      const [key, value] = part.split('=');
+      params[decodeURIComponent(key)] = decodeURIComponent(value || '');
+    });
+
+    if (params.token) {
+      // Build user object from what Yousif sends back
+      const email = params.user || params.email || 'User';
+      const name  = params.name || email.split('@')[0];
+      const user  = { name: name, email: email };
+
+      // Save to sessionStorage so the dashboard knows who's logged in
+      sessionStorage.setItem('user', JSON.stringify(user));
+      sessionStorage.setItem('token', params.token);
+
+      // Clear the hash from the URL and redirect to dashboard
+      window.location.href = 'index.html';
+    }
+  })();
+
   // ── Tab switching ─────────────────────────────────────────────
   function switchTab(tab) {
     document.querySelectorAll('.tab-btn').forEach((b, i) => {
@@ -456,18 +487,17 @@
   // ── OAuth login ───────────────────────────────────────────────
   // NOTE: Replace these URLs with Yousif's actual OAuth endpoints
   function oauthLogin(provider) {
-    const endpoints = {
-      google: '/api/auth/google',
-      github: '/api/auth/github',
-    };
-    // Redirect to OAuth provider
-    // window.location.href = endpoints[provider];
-    showMsg('login-msg', `${provider.charAt(0).toUpperCase()+provider.slice(1)} OAuth — connect to Yousif's auth backend endpoint: ${endpoints[provider]}`, 'success');
+    if (provider === 'github') {
+      // Redirect to Yousif's GitHub OAuth endpoint
+      window.location.href = 'https://diet-analysis-func-samir.azurewebsites.net/api/auth/github';
+    } else {
+      showMsg('login-msg', 'Google OAuth coming soon.', 'error');
+    }
   }
 
   // ── Login handler ─────────────────────────────────────────────
   // NOTE: Replace API_BASE with Yousif's actual auth API URL
-  const API_BASE = 'YOUR_AUTH_API_URL_HERE';
+  const API_BASE = 'https://diet-analysis-func-samir.azurewebsites.net';
 
   async function handleLogin() {
     const email    = document.getElementById('login-email').value.trim();
