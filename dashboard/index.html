@@ -588,6 +588,54 @@
       </div>
     </div>
 
+    <!-- Recipe Explorer -->
+    <div class="card" id="recipe-explorer">
+      <div class="card-header">
+        <div>
+          <div class="card-title">Recipe explorer</div>
+          <div class="card-sub">Search, filter, and page through individual recipes</div>
+        </div>
+      </div>
+
+      <div class="filter-row" style="margin-bottom:16px;">
+        <input id="recipe-search" type="text" placeholder="Search recipe name..."
+          style="flex:1; min-width:200px; padding:7px 12px; font-size:13px; border:1px solid var(--border-strong); border-radius:8px; color:var(--text); background:var(--surface);" />
+        <select id="recipe-diet-filter"
+          style="padding:7px 12px; font-size:13px; border:1px solid var(--border-strong); border-radius:8px; color:var(--text); background:var(--surface);">
+          <option value="">All diets</option>
+          <option value="dash">Dash</option>
+          <option value="keto">Keto</option>
+          <option value="mediterranean">Mediterranean</option>
+          <option value="paleo">Paleo</option>
+          <option value="vegan">Vegan</option>
+        </select>
+      </div>
+
+      <div id="recipe-status" style="font-size:12px; color:var(--muted); margin-bottom:12px;"></div>
+
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th>Recipe</th>
+              <th>Diet</th>
+              <th>Cuisine</th>
+              <th>Protein (g)</th>
+              <th>Carbs (g)</th>
+              <th>Fat (g)</th>
+            </tr>
+          </thead>
+          <tbody id="recipeTBody"></tbody>
+        </table>
+      </div>
+
+      <div style="display:flex; align-items:center; justify-content:space-between; margin-top:16px;">
+        <button id="recipe-prev" class="pill">&larr; Prev</button>
+        <span id="recipe-page-label" style="font-size:12px; color:var(--muted);"></span>
+        <button id="recipe-next" class="pill">Next &rarr;</button>
+      </div>
+    </div>
+
   </div>
 </div>
 
@@ -793,6 +841,83 @@ function buildTable() {
 }
 
 load();
+
+// ── Recipe Explorer ──────────────────────────────────────────
+const RECIPES_API = "https://diet-analysis-func-samir.azurewebsites.net/api/recipes";
+const PAGE_SIZE = 15;
+let recipePage = 1;
+let recipeTotalPages = 1;
+let recipeSearchTimer = null;
+
+function recipeDietColor(diet) {
+  return (COLORS[diet] || { fill: "#6B7280", light: "#F9FAFB", text: "#374151" });
+}
+
+async function loadRecipes() {
+  const statusEl = document.getElementById("recipe-status");
+  const tbody = document.getElementById("recipeTBody");
+  const q = document.getElementById("recipe-search").value.trim();
+  const dietType = document.getElementById("recipe-diet-filter").value;
+
+  statusEl.textContent = "Loading...";
+
+  const params = new URLSearchParams();
+  if (q) params.set("q", q);
+  if (dietType) params.set("diet_type", dietType);
+  params.set("page", recipePage);
+  params.set("page_size", PAGE_SIZE);
+
+  try {
+    const r = await fetch(`${RECIPES_API}?${params.toString()}`);
+    if (!r.ok) throw new Error("HTTP " + r.status);
+    const result = await r.json();
+
+    recipeTotalPages = result.total_pages || 1;
+    statusEl.textContent = `${result.total_count.toLocaleString()} recipe${result.total_count === 1 ? "" : "s"} found`;
+
+    tbody.innerHTML = result.data.map(rec => {
+      const col = recipeDietColor(rec.diet_type);
+      return `<tr>
+        <td>${rec.recipe_name || ""}</td>
+        <td><span class="diet-pill" style="background:${col.light};color:${col.text};">${rec.diet_type}</span></td>
+        <td>${rec.cuisine_type || ""}</td>
+        <td>${(rec.protein_g ?? 0).toFixed(1)}</td>
+        <td>${(rec.carbs_g ?? 0).toFixed(1)}</td>
+        <td>${(rec.fat_g ?? 0).toFixed(1)}</td>
+      </tr>`;
+    }).join("") || `<tr><td colspan="6" style="color:var(--muted); text-align:center; padding:20px;">No recipes match your search.</td></tr>`;
+
+    document.getElementById("recipe-page-label").textContent = `Page ${result.page} of ${result.total_pages}`;
+    document.getElementById("recipe-prev").disabled = result.page <= 1;
+    document.getElementById("recipe-next").disabled = result.page >= result.total_pages;
+  } catch (e) {
+    statusEl.textContent = "Could not load recipes: " + e.message;
+    tbody.innerHTML = "";
+  }
+}
+
+document.getElementById("recipe-search").addEventListener("input", () => {
+  clearTimeout(recipeSearchTimer);
+  recipeSearchTimer = setTimeout(() => {
+    recipePage = 1;
+    loadRecipes();
+  }, 400); // debounce so we don't fire a request on every keystroke
+});
+
+document.getElementById("recipe-diet-filter").addEventListener("change", () => {
+  recipePage = 1;
+  loadRecipes();
+});
+
+document.getElementById("recipe-prev").addEventListener("click", () => {
+  if (recipePage > 1) { recipePage--; loadRecipes(); }
+});
+
+document.getElementById("recipe-next").addEventListener("click", () => {
+  if (recipePage < recipeTotalPages) { recipePage++; loadRecipes(); }
+});
+
+loadRecipes();
 </script>
 </body>
 </html>
