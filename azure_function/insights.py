@@ -77,6 +77,15 @@ def compute_insights(csv_bytes, source):
     return {"summary": summary, "documents": documents}
 
 
+def _cosmos_client():
+    from azure.cosmos import CosmosClient
+
+    conn = os.environ.get("COSMOS_CONNECTION_STRING")
+    if conn:
+        return CosmosClient.from_connection_string(conn)
+    return CosmosClient(os.environ["COSMOS_ENDPOINT"], os.environ["COSMOS_KEY"])
+
+
 def write_to_cosmos(result):
     """Upsert each per-diet document into Cosmos DB. Returns the count written.
 
@@ -86,17 +95,12 @@ def write_to_cosmos(result):
       COSMOS_DATABASE   default 'diet_analytics'
       COSMOS_CONTAINER  default 'nutrition_results'
     """
-    from azure.cosmos import CosmosClient, PartitionKey
+    from azure.cosmos import PartitionKey
 
     db_name = os.environ.get("COSMOS_DATABASE", "diet_analytics")
     container_name = os.environ.get("COSMOS_CONTAINER", "nutrition_results")
 
-    conn = os.environ.get("COSMOS_CONNECTION_STRING")
-    if conn:
-        client = CosmosClient.from_connection_string(conn)
-    else:
-        client = CosmosClient(os.environ["COSMOS_ENDPOINT"], os.environ["COSMOS_KEY"])
-
+    client = _cosmos_client()
     db = client.create_database_if_not_exists(db_name)
     container = db.create_container_if_not_exists(
         id=container_name,
@@ -106,3 +110,64 @@ def write_to_cosmos(result):
     for doc in result["documents"]:
         container.upsert_item(doc)
     return len(result["documents"])
+
+
+def build_recipe_documents(csv_bytes, source):
+    """
+    Same normalized CSV as compute_insights(), but returns one Cosmos-ready
+    document per RECIPE instead of per diet type. This is what backs the
+    search / filter / pagination API — the aggregate documents in
+    nutrition_results don't have enough detail for that.
+    """
+    df = _normalize(pd.read_csv(io.BytesIO(csv_bytes)))
+    df["Diet_type"] = df["Diet_type"].astype(str).str.strip().str.lower()
+
+    for col in MACROS:
+        df[col] = pd.to_numeric(df[col], errors="coerce")
+    for col in MACROS:
+        df[col] = df.groupby("Diet_type")[col].transform(lambda s: s.fillna(s.mean()))
+    df[MACROS] = df[MACROS].fillna(df[MACROS].mean())
+
+    now = datetime.now(timezone.utc).isoformat(timespec="seconds")
+    documents = []
+    for i, row in df.reset_index(drop=True).iterrows():
+        diet = row["Diet_type"]
+        recipe_name = str(row.get("Recipe_name", f"recipe-{i}"))
+        documents.append({
+            # id must be unique within the partition (diet_type) — combining
+            # index + diet keeps re-runs idempotent (upsert overwrites, no dupes)
+            "id": f"{diet}-{i}",
+            "diet_type": diet,
+            "recipe_name": recipe_name,
+            "recipe_name_lower": recipe_name.lower(),  # for case-insensitive search
+            "cuisine_type": str(row.get("Cuisine_type", "")).strip().lower(),
+            "protein_g": float(row["Protein(g)"]),
+            "carbs_g": float(row["Carbs(g)"]),
+            "fat_g": float(row["Fat(g)"]),
+            "generated_at": now,
+            "source": source,
+        })
+    return documents
+
+
+def write_recipes_to_cosmos(documents):
+    """Upsert per-recipe documents into the 'recipes' container. Returns count written.
+
+    Reads connection info from the same env vars as write_to_cosmos(), plus:
+      COSMOS_RECIPES_CONTAINER   default 'recipes'
+    """
+    from azure.cosmos import PartitionKey
+
+    db_name = os.environ.get("COSMOS_DATABASE", "diet_analytics")
+    container_name = os.environ.get("COSMOS_RECIPES_CONTAINER", "recipes")
+
+    client = _cosmos_client()
+    db = client.create_database_if_not_exists(db_name)
+    container = db.create_container_if_not_exists(
+        id=container_name,
+        partition_key=PartitionKey(path="/diet_type"),
+    )
+
+    for doc in documents:
+        container.upsert_item(doc)
+    return len(documents)
